@@ -1,0 +1,657 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linyi Senkuo Electromechanical Co., Ltd. – Chapter 8 ModBus Communication Protocol</title>
+    <link>http://localhost:1313/en/docs/vfd/modbus-communication-protocol/</link>
+    <description>Recent content in Chapter 8 ModBus Communication Protocol on Linyi Senkuo Electromechanical Co., Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/en/docs/vfd/modbus-communication-protocol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>8.1 Agreement content</title>
+      <link>http://localhost:1313/en/docs/vfd/modbus-communication-protocol/agreement-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/modbus-communication-protocol/agreement-content/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The inverter provides an RS485 communication interface and supports the Modbus-RTU communication protocol. Users can achieve centralized control through computers or PLCs using this communication protocol to set inverter operation commands, modify or read function code parameters, and read the inverter&amp;rsquo;s operating status and fault information.&lt;/p&gt;
+&lt;p&gt;This serial communication protocol defines the content and usage format of the information transmitted in serial communication. It includes the master polling (or broadcasting) format, the encoding method of the master, which includes the function code requesting action, transmission data, and error checking. The response from the slave also follows the same structure, including action confirmation, returning data, and error checking. If the slave encounters an error while receiving information or cannot complete the action requested by the master, it will organize a fault message as a response to the master.&lt;/p&gt;
+&lt;h3&gt;8.1.1 Application Modes&lt;span class=&#34;absolute -mt-20&#34; id=&#34;811-application-modes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#811-application-modes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The inverter connects to a &amp;ldquo;single master multiple slave&amp;rdquo; PC/PLC control network with an RS485 bus as a communication slave.&lt;/p&gt;
+&lt;h3&gt;8.1.2 Bus Structure&lt;span class=&#34;absolute -mt-20&#34; id=&#34;812-bus-structure&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#812-bus-structure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Hardware Interface: Comes with communication interface A+ and B- terminal connectors.&lt;/li&gt;
+&lt;li&gt;Topology:
+&lt;ul&gt;
+&lt;li&gt;Single master multiple slave system. Each communication device in the network has a unique slave address, with one device serving as the communication master (PC host, PLC, HMI, etc.). The master initiates communication and performs parameter read or write operations on the slaves, while other devices act as communication slaves, responding to inquiries or communication operations from the master regarding themselves. Only one device can send data at a time, with the rest in a receiving state. The slave address is set within the range of 1 to 247, with 0 reserved for broadcast communication. Each slave address in the network must be unique.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Communication Transmission Mode:
+&lt;ul&gt;
+&lt;li&gt;Asynchronous serial, half-duplex transmission. Data in serial asynchronous communication is transmitted in the form of frames, with one frame sent at a time. According to the MODBUS-RTU protocol, when there is no data on the communication data line for a time greater than 3.5 byte transmission time, it indicates the start of a new communication frame.
+&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/modbus1.jpg&#34; title=&#34;The Modbus communication transmission method&#34; alt=&#34;The Modbus communication transmission method&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;The Modbus communication transmission method&lt;/figcaption&gt;
+  &lt;/figure&gt;
+The built-in communication protocol of the inverter is the Modbus-RTU slave communication protocol, which can respond to the host&amp;rsquo;s &amp;ldquo;queries/commands&amp;rdquo; or perform corresponding actions based on the host&amp;rsquo;s &amp;ldquo;queries/commands,&amp;rdquo; and communicate data responses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The host can be a personal computer (PC), industrial control equipment, or programmable logic controller (PLC), etc. The host can communicate individually with a specific slave or broadcast messages to all subordinate slaves. For individual access by the host through &amp;ldquo;queries/commands,&amp;rdquo; the accessed slave must return a response frame. For broadcast messages sent by the host, slaves do not need to provide responses.&lt;/p&gt;
+&lt;h3&gt;8.1.3 Communication Data Structure&lt;span class=&#34;absolute -mt-20&#34; id=&#34;813-communication-data-structure&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#813-communication-data-structure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Modbus protocol defines the format of communication data as shown below. The inverter only supports the reading or writing of Word-type parameters. The corresponding communication read operation command is 0x03, and the write operation command is 0x06. Byte or bit read/write operations are not supported:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/modbus2.jpg&#34; title=&#34;Modbus Communication Data Format&#34; alt=&#34;Modbus Communication Data Format&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Modbus Communication Data Format&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In theory, the host computer can read several consecutive function codes at once (up to a maximum of 12), but it should be noted that it cannot skip the last function code in this group. Otherwise, an error response will be given.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/modbus3.jpg&#34; title=&#34;Modbus Communication Data Format&#34; alt=&#34;Modbus Communication Data Format&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Modbus Communication Data Format&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;If the slave detects a communication frame error or other reasons leading to unsuccessful read/write operations, it will respond with an error frame.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/modbus4.jpg&#34; title=&#34;Modbus Communication Data Format&#34; alt=&#34;Modbus Communication Data Format&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Modbus Communication Data Format&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;8.1.4 Frame Field Description&lt;span class=&#34;absolute -mt-20&#34; id=&#34;814-frame-field-description&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#814-frame-field-description&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Field&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;START (Frame Header)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Greater than 3.5 character transmission time of idle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ADR (Slave Address)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Communication address range: 1~247; 0 = broadcast address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;CMD (Command Code)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;03: Read slave parameters; 06: Write slave parameters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Function Code Address (High)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Internal parameter address of the inverter, represented in hexadecimal; divided into functional and non-functional parameters (such as operating status parameters, operating commands, etc.). See address definition for details. During transmission, the high byte comes first, followed by the low byte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Function Code Address (Low)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Same as above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Function Code Count (High)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Number of function codes read in this frame. If 1, it means reading 1 function code. During transmission, the high byte comes first, followed by the low byte. This protocol can only rewrite one function code at a time, and there is no such field.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Function Code Count (Low)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Same as above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Data (High)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Response data or specially written data. During transmission, the high byte comes first, followed by the low byte.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Data (Low)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Same as above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;CRCCHK (High)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Check value: CRC16 checksum value. During transmission, the high byte comes first, followed by the low byte. Refer to the CRC verification section for calculation method.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;CRCCHK (Low)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Same as above&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;END&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3.5 character time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;8.1.5 CMD Verification Method&lt;span class=&#34;absolute -mt-20&#34; id=&#34;815-cmd-verification-method&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#815-cmd-verification-method&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The verification method is the CRC (Cyclical Redundancy Check) method, using the RTU frame format. The message includes an error detection field based on the CRC method. The CRC field checks the content of the entire message. The CRC field consists of two bytes containing a 16-bit binary value. It is calculated by the transmitting device and added to the message. The receiving device recalculates the CRC of the received message and compares it with the value in the received CRC field. If the two CRC values are not equal, it indicates a transmission error.&lt;/p&gt;
+&lt;p&gt;During the CRC calculation, the initial value is set to 0xFFFF, and then each consecutive 8-bit byte in the message is processed with the current value in the register. Only the 8-bit data in each character is valid for CRC, while the start bit, stop bit, and parity bit are invalid.&lt;/p&gt;
+&lt;p&gt;In the CRC generation process, each 8-bit character is individually XORed with the register content, and the result is shifted towards the least significant bit (LSB) direction, with the most significant bit (MSB) filled with 0. The LSB is extracted for checking. If the LSB is 1, the register is XORed with a preset value, and if the LSB is 0, no operation is performed. This process is repeated 8 times. After the last bit (8th bit) is completed, the next 8-bit byte is XORed individually with the current value in the register. The final value in the register is the CRC value after all bytes in the message have been processed. When adding CRC to the message, the low byte is added first, followed by the high byte. The CRC function is as follows:&lt;/p&gt;
+&lt;div class=&#34;code-block relative mt-6 first:mt-0 group/code&#34;&gt;&lt;pre&gt;&lt;code&gt;unsigned int CRC16_CHK(unsigned char *data, unsigned char length)
+{
+  int j = 0;
+  unsigned int crc Oxffff reg:
+    while(length--)
+    {
+       crc reg *data&amp;#43;&amp;#43;:
+       for(j=0:j&amp;lt;8:j&amp;#43;&amp;#43;)
+          {
+           if(reg crc 0x01)
+             {
+            reg_crc (reg_crc &amp;gt; 1) 0xa001:
+             }
+       else
+             {
+             reg_crc = reg_crc &amp;gt;&amp;gt; 1;
+             }
+          }
+    }
+    return reg_crc;
+}&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;opacity-0 transition group-hover/code:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0&#34;&gt;
+    &lt;button
+      class=&#34;code-copy-btn group/copybtn transition-all active:opacity-50 bg-primary-700/5 border border-black/5 text-gray-600 hover:text-gray-900 rounded-md p-1.5 dark:bg-primary-300/10 dark:border-white/10 dark:text-gray-400 dark:hover:text-gray-50&#34;
+      title=&#34;Copy code&#34;
+    &gt;
+      &lt;div class=&#34;group-[.copied]/copybtn:hidden copy-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;hidden group-[.copied]/copybtn:block success-icon pointer-events-none h-4 w-4&#34;&gt;&lt;/div&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;8.1.6 Function Code Parameter Addressing Rules:&lt;span class=&#34;absolute -mt-20&#34; id=&#34;816-function-code-parameter-addressing-rules&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#816-function-code-parameter-addressing-rules&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For reading and writing function code parameters (some function codes cannot be changed and are only used by the manufacturer or for monitoring):&lt;/p&gt;
+&lt;p&gt;The parameter address is represented by the function code group number and label:&lt;/p&gt;
+&lt;p&gt;High byte: PO~PF (P group) AO-AF (A group) 70~7F (U group)
+Low byte: 00~FF&lt;/p&gt;
+&lt;p&gt;For example, if you want to access the range of function code P3-12, the access address for the function code is represented as F30CH.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PF group: Parameters cannot be read or changed.&lt;/li&gt;
+&lt;li&gt;U group: Parameters can only be read and cannot be changed.&lt;/li&gt;
+&lt;li&gt;Some parameters cannot be changed when the inverter is in operation; some parameters cannot be changed regardless of the state of the inverter; when changing function code parameters, pay attention to the range, unit, and related instructions of the parameters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Function Code Group Number&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Communication Access Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Communication Modify RAM Function Code Address&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;P0~PE Group&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0xF000~0xFEFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0x0000~0x0EFF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;A0~AC Group&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0xA000~0xACFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0x4000~0x4CFF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;U0 Group&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0x7000~0x70FF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Read-only, cannot be written&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Due to frequent EEPROM storage, it will reduce the service life of EEPROM. Therefore, for some function codes, no storage is required in communication mode, and only changing the value in RAM is sufficient.&lt;/li&gt;
+&lt;li&gt;If it is a P group parameter, to implement this function, simply change the high byte F of the function code address to 0. If it is an A group parameter, to implement this function, simply change the high byte A of the function code address to 4.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Writing to RAM corresponding function code addresses:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;High byte: 00~0F (P group) 40~4F (A group)
+Low byte: 00~FF&lt;/p&gt;
+&lt;p&gt;For example, the function code P3-12 is not stored in EEPROM, the address is represented as 030CH;
+Function code A0-05 is not stored in EEPROM, the address is represented as 4005H.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;
+This address representation can only be used for writing to RAM, not for reading actions. When reading, it is an invalid address. For all parameters, you can also use command code 07H to implement this function.&lt;/p&gt;
+&lt;h3&gt;8.1.7 Shutdown/Running Parameters Section:&lt;span class=&#34;absolute -mt-20&#34; id=&#34;817-shutdownrunning-parameters-section&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#817-shutdownrunning-parameters-section&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Description&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1000H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Communication setting value (Decimal) &lt;/br&gt; -10000-10000&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1010H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PID setting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1001H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Operating frequency&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1011H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PID feedback&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1002H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Bus voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1012H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PLC step&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1003H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1013H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input pulse frequency, unit 0.01kHz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1004H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output current&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1014H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Feedback speed, unit 0.1Hz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1005H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output power&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1015H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Remaining running time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1006H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output torque&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1016H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;All calibration voltage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1007H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Operating speed&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1017H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI2 calibration voltage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1008H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;DI input flag&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1018H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI3 calibration voltage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1009H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;DO output flag&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1019H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Line speed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100AH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;All voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101AH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Current power-on time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100BH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI2 voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101BH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Current running time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100CH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AI3 voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101CH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input pulse frequency, unit 1Hz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100DH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Count value input&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101DH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Communication setting value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100EH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Length value input&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101EH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Actual feedback speed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100FH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Load speed&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;101FH&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Main frequency X display&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1020H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Auxiliary frequency Y display&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The communication setting value is a percentage of the relative value, where 10000 corresponds to 100.00%, and -10000 corresponds to -100.00%.&lt;/li&gt;
+&lt;li&gt;For dimensional data of frequency, this percentage is relative to the maximum frequency (P0-10); for torque dimensional data, this percentage is P2-10, A2-48, A3-48, A4-48 (torque limit digital setting, corresponding to the first, second, third, and fourth motors respectively).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Control Commands Input to the Inverter: (Write Only)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;control-commands-input-to-the-inverter-write-only&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#control-commands-input-to-the-inverter-write-only&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Command Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Command Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2000H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0001: Forward Run &lt;/br&gt;0002: Reverse Run &lt;/br&gt;0003: Forward Jogging &lt;/br&gt;0004: Reverse Jogging &lt;/br&gt;0005: Freewheel Stop &lt;/br&gt;0006: Deceleration Stop &lt;/br&gt;0007: Fault Reset&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Reading Inverter Status: (Read Only)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;reading-inverter-status-read-only&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reading-inverter-status-read-only&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Status Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Status Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3000H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0001: Forward Run &lt;/br&gt;0002: Reverse Run &lt;/br&gt;0003: Stop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Parameter Lock Password Verification: (Returns 888H if the password check passes)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;parameter-lock-password-verification-returns-888h-if-the-password-check-passes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#parameter-lock-password-verification-returns-888h-if-the-password-check-passes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Password Address&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Password Input&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1F00H&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;*****&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;8.1.8 Output Control Commands&lt;span class=&#34;absolute -mt-20&#34; id=&#34;818-output-control-commands&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#818-output-control-commands&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Command Address&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Command Content&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Output Control Command Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2001H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Bit0: DO1 Output Control &lt;/br&gt;Bit1: DO2 Output Control &lt;/br&gt;Bit2: RELAY1 Output Control &lt;/br&gt;Bit3: RELAY2 Output Control &lt;/br&gt;Bit4: FMR Output Control &lt;/br&gt;Bit5: VDO1 &lt;/br&gt;Bit6: VDO2&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Digital Output Terminal Control: (Write Only)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2002H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0~7FFF represents 0%~100%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Analog Output AO1 Control: (Write Only)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2003H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0~7FFF represents 0%~100%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Analog Output AO2 Control: (Write Only)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2004H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0~7FFF represents 0%~100%&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Pulse (PULSE) Output Control: (Write Only)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;8.1.9 Inverter Fault Descriptions&lt;span class=&#34;absolute -mt-20&#34; id=&#34;819-inverter-fault-descriptions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#819-inverter-fault-descriptions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Fault Address&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Fault Information&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8000H&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0000: No Fault &lt;/br&gt;0001: Reserved &lt;/br&gt;0002: Overcurrent during acceleration &lt;/br&gt;0003: Overcurrent during deceleration &lt;/br&gt;0004: Overcurrent during constant speed &lt;/br&gt;0005: Overvoltage during acceleration &lt;/br&gt;0006: Overvoltage during deceleration &lt;/br&gt;0007: Overvoltage during constant speed &lt;/br&gt;0008: Buffer resistor overload fault &lt;/br&gt;0009: Undervoltage fault &lt;/br&gt;000A: Inverter overload &lt;/br&gt;000B: Motor overload &lt;/br&gt;000C: Input phase loss &lt;/br&gt;000D: Output phase loss &lt;/br&gt;000E: Module overheating &lt;/br&gt;000F: External fault &lt;/br&gt;0010: Communication abnormality &lt;/br&gt;0011: Contactor abnormality &lt;/br&gt;0012: Current detection fault &lt;/br&gt;0013: Motor tuning fault &lt;/br&gt;0014: Encoder/PG card fault &lt;/br&gt;0015: Parameter read/write abnormality &lt;/br&gt;0016: Inverter hardware fault &lt;/br&gt;0017: Motor-to-ground short circuit fault &lt;/br&gt;0018: Reserved &lt;/br&gt;0019: Reserved &lt;/br&gt;001A: Running time reached &lt;/br&gt;001B: User-defined fault 1 &lt;/br&gt;001C: User-defined fault 2 &lt;/br&gt;001D: Power-on time reached &lt;/br&gt;001E: Unload &lt;/br&gt;001F: PID feedback loss during operation &lt;/br&gt;0028: Quick current limiting timeout fault &lt;/br&gt;0029: Motor switch fault during operation &lt;/br&gt;002A: Excessive speed deviation &lt;/br&gt;002B: Motor overspeed &lt;/br&gt;002D: Motor over temperature &lt;/br&gt;005A: Encoder line number setting error &lt;/br&gt;005B: Encoder not connected &lt;/br&gt;005C: Initial position error &lt;/br&gt;005E: Speed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;8.1.10 PD Group Communication Parameter Description&lt;span class=&#34;absolute -mt-20&#34; id=&#34;8110-pd-group-communication-parameter-description&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8110-pd-group-communication-parameter-description&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Code&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Range&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Factory Default&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-00&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Baud Rate&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Unit: MODBUS Baud Rate&lt;br&gt;0: 300BPS&lt;br&gt;1: 600BPS&lt;br&gt;2: 1200BPS&lt;br&gt;3: 2400BPS&lt;br&gt;4: 4800BPS&lt;br&gt;5: 9600BPS&lt;br&gt;6: 19200BPS&lt;br&gt;7: 38400BPS&lt;br&gt;8: 57600BPS&lt;br&gt;9: 115200BPS&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-01&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Data Format&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0: No Parity, Data Format &amp;lt;8,N,2&amp;gt;&lt;br&gt;1: Even Parity, Data Format &amp;lt;8,E,1&amp;gt;&lt;br&gt;2: Odd Parity, Data Format &amp;lt;8,0,1&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-02&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Device Address&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1~247, 0 for Broadcast Address&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-03&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Response Delay&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0~20ms&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2&#34;&gt;&lt;div class=&#34;select-none text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;w-full min-w-0 leading-7&#34;&gt;
+    &lt;div class=&#34;mt-6 leading-7 first:mt-0&#34;&gt;
+      Response Delay: The time interval from the end of data reception by the inverter until sending data to the host. If the response delay is less than the system processing time, it is based on the system processing time. If the response delay is longer than the system processing time, the system must wait until the response delay time elapses before sending data to the host.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Code&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Range&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Factory Default&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-04&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Communication Timeout&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0.0s (Invalid) to 60.0s&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2&#34;&gt;&lt;div class=&#34;select-none text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;w-full min-w-0 leading-7&#34;&gt;
+    &lt;div class=&#34;mt-6 leading-7 first:mt-0&#34;&gt;
+      &lt;p&gt;Note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When the parameter code is set to 0.0s, the communication timeout parameter is invalid.&lt;/li&gt;
+&lt;li&gt;When the parameter code is set to a valid value, if the interval between consecutive communications exceeds the communication timeout time, the system will report a communication fault error (Err16). Typically, this parameter is set to an invalid value. Setting this parameter in continuous communication systems can monitor communication status.&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Code&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Range&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Factory Default&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-05&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Modbus Protocol&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0: Non-Standard Modbus Protocol&lt;br&gt;1: Standard Modbus Protocol&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2&#34;&gt;&lt;div class=&#34;select-none text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;w-full min-w-0 leading-7&#34;&gt;
+    &lt;div class=&#34;mt-6 leading-7 first:mt-0&#34;&gt;
+      &lt;p&gt;Note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pd-05=1: Selects the standard Modbus protocol.&lt;/li&gt;
+&lt;li&gt;Pd-05=0: When reading commands, the number of bytes returned by the slave is one more than the standard Modbus protocol. Refer to the Communication Data Structure section of this protocol for details.&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Parameter Code&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Range&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Factory Default&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Pd-06&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Communication Current Resolution&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0: 0.01A&lt;br&gt;1: 0.1A&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2&#34;&gt;&lt;div class=&#34;select-none text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;w-full min-w-0 leading-7&#34;&gt;
+    &lt;div class=&#34;mt-6 leading-7 first:mt-0&#34;&gt;
+      Note: Determines the output unit of the current value when communicating to read output current.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

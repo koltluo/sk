@@ -1,0 +1,363 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linyi Senkuo Electromechanical Co., Ltd. – Chapter 7 Fault Diagnosis and Countermeasures</title>
+    <link>http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/</link>
+    <description>Recent content in Chapter 7 Fault Diagnosis and Countermeasures on Linyi Senkuo Electromechanical Co., Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>7.1 Fault Alarms and Countermeasures</title>
+      <link>http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/fault-alarm-and-countermeasures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/fault-alarm-and-countermeasures/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The frequency inverter has 32 warning messages and protection functions. Once a fault occurs, the protection function is activated, the frequency inverter stops outputting, the relay contact of the frequency inverter fault operates, and the fault code is displayed on the frequency inverter display panel. Before seeking service, users can perform self-checks according to the prompts in this section, analyze the causes of the fault, and find solutions. If service is required, please contact the dealer where you purchased the frequency inverter or contact our company directly.&lt;/p&gt;
+&lt;p&gt;Among the 21 warning messages, ERR22 indicates hardware overcurrent or overvoltage signal, and in most cases, hardware overvoltage faults cause ERR22 alarms.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Serial Number&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Fault Name&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Fault Code&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Fault Cause Analysis&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Troubleshooting Measures&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter unit protection&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR01&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Short circuit in the output circuit of the inverter&lt;/br&gt;2. Motor and inverter wiring is too long&lt;/br&gt;3. Module overheating&lt;/br&gt;4. Loose internal wiring of the inverter&lt;/br&gt;5. Main control board abnormality&lt;/br&gt;6. Drive board abnormality&lt;/br&gt;7. Inverter module abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Exclude peripheral faults&lt;/br&gt;2. Install reactors or output filters&lt;/br&gt;3. Check if the air duct is blocked, if the fan is working normally, and exclude any issues&lt;/br&gt;4. Plug in all connectors&lt;/br&gt;5. Seek technical support&lt;/br&gt;6. Seek technical support&lt;/br&gt;7. Seek technical support&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Acceleration overcurrent&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR02&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Grounding or short circuit in the output circuit of the inverter&lt;/br&gt;2. Vector control mode without parameter identification&lt;/br&gt;3. Acceleration time is too short&lt;/br&gt;4. Manual torque boost or V/F curve is inappropriate&lt;/br&gt;5. Low voltage&lt;/br&gt;6. Starting the motor that is already rotating&lt;/br&gt;7. Sudden load during acceleration&lt;/br&gt;8. Undersized selection of the inverter&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Exclude peripheral faults&lt;/br&gt;2. Perform motor parameter identification&lt;/br&gt;3. Increase acceleration time&lt;/br&gt;4. Adjust manual torque boost V/F curve&lt;/br&gt;5. Adjust voltage to normal range&lt;/br&gt;6. Choose speed tracking start or start after the motor stops&lt;/br&gt;7. Remove sudden load&lt;/br&gt;8. Choose a larger power rating inverter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Deceleration overcurrent&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR03&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Grounding or short circuit in the output circuit of the inverter&lt;/br&gt;2. Vector control mode without parameter identification&lt;/br&gt;3. Deceleration time is too short&lt;/br&gt;4. Low voltage&lt;/br&gt;5. Sudden load during deceleration&lt;/br&gt;6. No brake unit and brake resistor installed&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Exclude peripheral faults&lt;/br&gt;2. Perform motor parameter identification&lt;/br&gt;3. Increase deceleration time&lt;/br&gt;4. Adjust voltage to normal range&lt;/br&gt;5. Remove sudden load&lt;/br&gt;6. Install brake unit and resistor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Constant speed overcurrent&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR04&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Grounding or short circuit in the output circuit of the inverter&lt;/br&gt;2. Vector control mode without parameter identification&lt;/br&gt;3. Low voltage&lt;/br&gt;4. Sudden load during operation&lt;/br&gt;5. Undersized selection of the inverter&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Exclude peripheral faults&lt;/br&gt;2. Perform motor parameter identification&lt;/br&gt;3. Adjust voltage to normal range&lt;/br&gt;4. Remove sudden load&lt;/br&gt;5. Choose a larger power rating inverter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Acceleration overvoltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR05&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input voltage is too high&lt;/br&gt;2. External force dragging the motor during acceleration&lt;/br&gt;3. Acceleration time is too short&lt;/br&gt;4. No brake unit and brake resistor installed&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Adjust voltage to normal range&lt;/br&gt;2. Remove external force or install brake resistor&lt;/br&gt;3. Increase acceleration time&lt;/br&gt;4. Install brake unit and resistor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Deceleration overvoltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR06&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input voltage is too high&lt;/br&gt;2. External force dragging the motor during deceleration&lt;/br&gt;3. Deceleration time is too short&lt;/br&gt;4. No brake unit and brake resistor installed&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Adjust voltage to normal range&lt;/br&gt;2. Remove external force or install brake resistor&lt;/br&gt;3. Increase deceleration time&lt;/br&gt;4. Install brake unit and resistor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Constant speed overvoltage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR07&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input voltage is too high&lt;/br&gt;2. External force dragging the motor during deceleration&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Adjust voltage to normal range&lt;/br&gt;2. Remove external force or install brake resistor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Control power failure&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR08&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input voltage is not within the specified range&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Adjust voltage to the specified range&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Under voltage fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR09&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Momentary power failure&lt;/br&gt;2. Input voltage of the inverter is not within the specified range&lt;/br&gt;3. Abnormal bus voltage&lt;/br&gt;4. Rectifier bridge and buffer resistor are abnormal&lt;/br&gt;5. Drive board abnormality&lt;/br&gt;6. Control board abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reset the fault&lt;/br&gt;2. Adjust the voltage to the normal range&lt;/br&gt;3. Seek technical support&lt;/br&gt;4. Seek technical support&lt;/br&gt;5. Seek technical support&lt;/br&gt;6. Seek technical support&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter overload&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR10&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Is the load too large or is the motor blocked&lt;/br&gt;2. Undersized selection of the inverter&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reduce the load and check the motor and mechanical conditions&lt;/br&gt;2. Choose a larger power rating inverter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Motor overload&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR11&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Is motor protection parameter P9-01 set properly&lt;/br&gt;2. Is the load too large or is the motor blocked&lt;/br&gt;3. Undersized selection of the inverter&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Correctly set this parameter&lt;/br&gt;2. Reduce the load and check the motor and mechanical conditions&lt;/br&gt;3. Choose a larger power rating inverter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input phase loss&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR12&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Abnormal three-phase input power supply&lt;/br&gt;2. Drive board abnormality&lt;/br&gt;3. Surge protection board abnormality&lt;/br&gt;4. Main control board abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check and eliminate problems in the peripheral circuit&lt;/br&gt;2. Seek technical support&lt;/br&gt;3. Seek technical support&lt;/br&gt;4. Seek technical support&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output phase loss&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR13&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Abnormal wiring from the inverter to the motor&lt;/br&gt;2. Unbalanced three-phase output of the inverter during motor operation&lt;/br&gt;3. Drive board abnormality&lt;/br&gt;4. Module abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check and eliminate problems in the peripheral circuit&lt;/br&gt;2. Check if the motor three-phase winding is normal and eliminate faults&lt;/br&gt;3. Seek technical support&lt;/br&gt;4. Seek technical support&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Module overheating&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR14&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. High ambient temperature&lt;/br&gt;2. Air duct blockage&lt;/br&gt;3. Fan damage&lt;/br&gt;4. Damage to the module&amp;rsquo;s thermistor&lt;/br&gt;5. Damage to the inverter module&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reduce ambient temperature&lt;/br&gt;2. Clean the fan&lt;/br&gt;3. Replace the fan&lt;/br&gt;4. Replace the thermistor&lt;/br&gt;5. Replace the inverter module&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External device fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR15&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input of external fault signal through multifunction terminal X&lt;/br&gt;2. Input of external fault signal through virtual IO function&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reset and run&lt;/br&gt;2. Reset and run&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Communication fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR16&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Abnormal operation of the host computer&lt;/br&gt;2. Abnormal communication line&lt;/br&gt;3. Reserved&lt;/br&gt;4. Incorrect setting of communication parameters PD group&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check the host computer connection&lt;/br&gt;2. Check the communication cable&lt;/br&gt;3. Correctly set the communication expansion card type&lt;/br&gt;4. Correctly set the communication parameters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Contactor fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR17&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Abnormality in the drive board and power supply&lt;/br&gt;2. Contactor abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replace the drive board or power supply board&lt;/br&gt;2. Replace the contactor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Current detection fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR18&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check for abnormal Hall devices&lt;/br&gt;2. Drive board abnormality&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replace the Hall device&lt;/br&gt;2. Replace the drive board&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;19&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Motor tuning fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR19&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Motor parameters not set according to nameplate&lt;/br&gt;2. Timeout during parameter identification process&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Correctly set motor parameters according to nameplate&lt;/br&gt;2. Check the inverter-to-motor wiring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;EEPROM read/write fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR21&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. EEPROM chip damage&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replace the main control board&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter hardware fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR22&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Overvoltage exists&lt;/br&gt;2. Overcurrent exists&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Handle according to overvoltage fault&lt;/br&gt;2. Handle according to overcurrent fault&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ground short-circuit fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR23&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Motor ground short circuit&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replace cables or motor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;23&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cumulative running time reaches fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR26&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Cumulative running time reaches set value&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Use parameter initialization function to clear record information&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;User-defined fault 1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR27&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input of user-defined fault 1 signal through multifunction terminal X&lt;/br&gt;2. Input of user-defined fault 1 signal through virtual IO function&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reset and run&lt;/br&gt;2. Reset and run&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;25&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;User-defined fault 2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR28&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Input of user-defined fault 2 signal through multifunction terminal X&lt;/br&gt;2. Input of user-defined fault 2 signal through virtual IO function&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reset and run&lt;/br&gt;2. Reset and run&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;26&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cumulative power-on time reaches fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR29&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Cumulative power-on time reaches set value&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Use parameter initialization function to clear record information&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;27&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Unload fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR30&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Inverter running current is less than P9-64&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Confirm whether the load is disconnected or if the settings of parameters P9-64 and P9-65 are consistent with actual operating conditions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;28&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PID feedback loss during operation fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR31&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. PID feedback is less than the set value of PA-26&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check the PID feedback signal or set PA-26 to an appropriate value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;29&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Wave-by-wave current limiting fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR40&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Is the load too large or is the motor blocked&lt;/br&gt;2. Undersized selection of the inverter&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reduce the load and check the motor and mechanical conditions&lt;/br&gt;2. Choose a larger power rating inverter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Motor switch fault during operation&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR41&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Change the current motor selection through terminals during inverter operation&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Perform motor switching operation after the inverter stops&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;31&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Motor overtemperature fault&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR45&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Loose connection of temperature sensor wiring&lt;/br&gt;2. Motor temperature is too high&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check temperature sensor wiring and eliminate faults&lt;/br&gt;2. Reduce frequency or take other cooling measures to dissipate heat from the motor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;32&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Initial position error&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR51&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Motor parameters deviate too much from actual&lt;/br&gt;2. Focus on whether the rated current is set too low&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reconfirm motor parameters, focusing on whether the rated current is set too low&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>7.2 Common Faults and Remediation Procedures</title>
+      <link>http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/common-faults-and-remediation-procedures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/fault-diagnosis-and-countermeasures/common-faults-and-remediation-procedures/</guid>
+      <description>
+        
+        
+        &lt;p&gt;During the operation of the inverter, you may encounter the following faults. Please refer to the following methods for simple fault analysis:&lt;/p&gt;
+&lt;h3&gt;Common Faults and Remediation Procedures for Inverters&lt;span class=&#34;absolute -mt-20&#34; id=&#34;common-faults-and-remediation-procedures-for-inverters&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#common-faults-and-remediation-procedures-for-inverters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;No.&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Fault Phenomenon&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Possible Causes&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Solutions&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No display after power on&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Absence or low voltage of the power supply&lt;br&gt;2. Faulty switch power supply on the drive board&lt;br&gt;3. Damaged rectifier bridge&lt;br&gt;4. Damaged buffer resistor of the inverter&lt;br&gt;5. Faulty control board, keyboard, or keyboard cable&lt;br&gt;6. Broken connection wire between the control board, drive board, and keyboard&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Check the input power supply&lt;br&gt;2. Seek service from the inverter manufacturer&lt;br&gt;3. Check the bus voltage&lt;br&gt;4. Seek service from the inverter manufacturer&lt;br&gt;5. Replace the keyboard cable or contact the inverter manufacturer&lt;br&gt;6. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Repetitive display of [ ] after power on&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Poor contact between the drive board and control board&lt;br&gt;2. Faulty components on the control board&lt;br&gt;3. Low voltage of the power supply&lt;br&gt;4. Issues with the switch power supply on the drive board&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replug the mainboard pin header&lt;br&gt;2. Seek service from the inverter manufacturer&lt;br&gt;3. Check the voltage of the power supply&lt;br&gt;4. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ERR23 displayed after power on&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Short circuit between the motor or output lines and ground&lt;br&gt;2. Inverter damage&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Use a megger to measure the insulation of the motor and output lines&lt;br&gt;2. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Normal display after power on, then displaying [ ] and stopping immediately during operation&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Fan damaged or jammed&lt;br&gt;2. Short circuit in peripheral control terminal connections&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Replace the fan&lt;br&gt;2. Eliminate external short circuit faults&lt;br&gt;3. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Frequent ERR14 (module overheating) faults&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Carrier frequency set too high&lt;br&gt;2. Fan damaged or air duct blocked&lt;br&gt;3. Damage to internal components of the inverter (thermocouple or others)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reduce the carrier frequency (P0-15)&lt;br&gt;2. Replace the fan and clear the air duct&lt;br&gt;3. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Motor does not rotate after inverter operation&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Poorly connected motor wires&lt;br&gt;2. Incorrect parameter settings of the inverter (motor parameters)&lt;br&gt;3. Poor contact between the drive board and control board&lt;br&gt;4. Faulty drive board&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reconfirm the wiring between the inverter and the motor&lt;br&gt;2. Replace the motor or clear mechanical faults&lt;br&gt;3. Check and reset the motor parameters&lt;br&gt;4. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter frequently reports overcurrent and overvoltage faults&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Incorrect motor parameter settings&lt;br&gt;2. Inappropriate acceleration and deceleration times&lt;br&gt;3. Load fluctuations&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1. Reset the motor parameters or perform motor tuning&lt;br&gt;2. Set appropriate acceleration and deceleration times&lt;br&gt;3. Seek service from the inverter manufacturer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Explore these documents for more information:&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase High-Performance Vector Frequency Converter Now&lt;/span&gt;&lt;/a&gt;
+
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter FAQ&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

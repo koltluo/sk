@@ -1,0 +1,1132 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linyi Senkuo Electromechanical Co., Ltd. – Chapter 2 Product-Information</title>
+    <link>http://localhost:1313/en/docs/vfd/product-information/</link>
+    <description>Recent content in Chapter 2 Product-Information on Linyi Senkuo Electromechanical Co., Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/en/docs/vfd/product-information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>2.1 Technical Specification Table</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/technical-specifications-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/technical-specifications-table/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Project&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Specification&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Control Characteristics&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Control Mode&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Sensorless Vector Control (SVC)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;V/F Control&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Starting Torque&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.5Hz/150%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.5Hz/100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Speed Range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:100&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Speed Stability&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;±0.5%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;±1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Carrier Frequency&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.5kHz~16kHz; Automatically adjusts carrier frequency according to load characteristics&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Overload Capacity&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;G Type: 150% rated current for 60s, 220% rated current for 1s &lt;/br&gt; P Type: 120% rated current for 60s, 150% rated current for 1s&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Torque Boost&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.0% automatic torque boost; Manual torque boost 0.1%~30%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input/Output&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input Voltage Range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220V/380V; Fluctuation Range: ±15%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input Frequency Range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;50/60Hz; Fluctuation Range: ±5%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output Voltage Range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0~Input Voltage, Error &amp;lt;5%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output Frequency Range&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;SVC: 0~320Hz; V/F: 0-3200Hz&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Operation Control&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Operation Command Channel&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3 Channels: Operation Panel Set, Control Terminal Set, Serial Communication Port Set. Can be switched through multiple methods.&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Frequency Source&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Digital Set, Panel Potentiometer Set, Analog Voltage Set, Analog Current Set, Serial Communication Set, etc. Can be switched through multiple methods.&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Auxiliary Frequency Source&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multiple auxiliary frequency sources. Can perform frequency synthesis and frequency fine-tuning.&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input Terminals&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7 Digital Input Terminals &lt;/br&gt; 2 Analog Input Terminals&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output Terminals&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2 Open Collector Output Terminals &lt;/br&gt; 2 Relay Output Terminals &lt;/br&gt; 2 Analog Output Terminals&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Basic Functions&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;DC Braking Function&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Braking Time: 0.0s~100.0s, Braking Action Current Value: 0.0%~100.0%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;V/F Curve&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3 Types: Linear, Multipoint, Square&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Acceleration/Deceleration Curve&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Linear or S-Curve Acceleration/Deceleration Mode; Four sets of acceleration/deceleration time; Acceleration/deceleration time range: 0.0~6500.0s&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Simple PLC, Multi-Speed&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Achieve up to 16-speed operation through built-in PLC or control terminal&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Built-in PID&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Convenient for realizing closed-loop control system for process control&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;AVR Function&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Automatically maintains constant output voltage when grid voltage changes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Overvoltage, Overcurrent, and Overspeed Protection&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Automatically limits current and voltage during operation to prevent frequent overcurrent and overvoltage tripping&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Quick Current Limiting Function&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Minimizes overcurrent faults to improve system stability&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Torque Limitation and Control&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ldquo;Excavator&amp;rdquo; characteristic, automatically limits torque during operation to prevent frequent overcurrent tripping&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Power-On Peripheral Device Safety Self-Check&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Can perform a safety check on peripheral devices such as grounding and short circuits when powered on&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Timing Control Function&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Set time range 0h~65535h&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Protection Functions&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Output Phase Loss Protection, Overcurrent Protection, Overvoltage Protection, Undervoltage Protection, Overheat Protection, Overload Protection, Power-On Relay Fault Detection, etc.&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Display and Keyboard Operation&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;LED Display&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5-digit LED display&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Parameter Lock Function&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Set parameters are read-only controlled to prevent misoperation&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;MF.K Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Programmable Key: Command Channel Switching/Forward and Reverse Operation/Incremental Operation Function Selection/Menu Mode Switching&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Environmental Conditions&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Usage Place&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indoors, not exposed to direct sunlight, no dust, corrosive gases, flammable gases, oil mist, water vapor, dripping water, or salt&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Altitude&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Below 1000m; Above 1000m, use with derating, derate 1% for every 100m increase&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ambient Temperature&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-10°C~40°C, derate usage when temperature exceeds 40°C, derate 1% for every 1°C increase in ambient temperature, maximum ambient temperature for use is 50°C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Humidity&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≤95%RH, avoid frost&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Vibration&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Vibration acceleration less than 0.6g&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Storage Temperature&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-25°C~+60°C&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.2 Product Nameplate</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/product-aluminum-plate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/product-aluminum-plate/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/cpmp.jpg&#34; title=&#34;Vector Inverter Product Nameplate&#34; alt=&#34;Product Nameplate&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Vector Inverter Product Nameplate&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Buy High-Performance Vector Inverter Now&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for Inverter User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions about Inverters&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.3 Inverter Model Description</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/model-description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/model-description/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/xh.jpg&#34; title=&#34;Vector Inverter Model Description&#34; alt=&#34;Model Description&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Vector Inverter Model Description&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Field&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Identifier&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Details&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Product Series&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;①&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Product Series&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;The general vector inverter series is 8000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rated Power 1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;②&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Power Range for G Type Machines&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5R5-5.5KW, where R denotes decimal point&lt;br&gt; G - Constant torque load&lt;br&gt; B - Built-in braking unit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rated Power 2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;③&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Power Range for P Type Machines&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7R5-7.5KW, where R denotes decimal point&lt;br&gt; P - Variable torque load&lt;br&gt; B - Built-in braking unit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Input Power&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;④&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Power Phase Identification&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;S: Single-phase; T: Three-phase&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Voltage Level&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;⑤&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Voltage Level&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2: 220VAC; 4: 380VAC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase High-Performance Vector Inverter Now&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for Inverter User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;FAQs About Inverters&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.4 Product Selection Specification Table</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/product-selection-specification-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/product-selection-specification-table/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Inverter Model G/P&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Rated Power (kW)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Power Capacity (KVA)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Input Current (A)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Output Current (A)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Compatible Motor G/P (kW)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Compatible Motor G/P (HP)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;R75GB-S2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8.2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1R5GB-S2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2R2GB-S2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;23&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9.6&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;R75GB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3.4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0.75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1R5GB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3.8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2R2GB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;004GB/5R5PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4/5.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.9/8.9&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10.5/14.6&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;9/13&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4/5.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5/7.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5R5GB/7R5PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5/7.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8.9/11&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14.6/20.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;13/17&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5/7.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7R5GB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;011GB/015PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11/15&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17/21&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;26/35&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;25/32&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11/15&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;015GB/18R5PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15/18.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;21/24&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;35/38.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;32/37&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15/18.5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;018R5GB/022PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18.5/22&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;24/30&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;38.5/46&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;37/45&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18.5/22&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;25/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;022GB/030PB-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22/30&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30/40&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;46.5/62&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;45/60&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22/30&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30/40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;030G/037P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30/37&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40/57&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;62/76&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;60/75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30/37&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;40/50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;037G/045P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;37/45&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;57/69&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;76/92&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;75/91&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;37/45&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;50/60&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;045G/055P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;45/55&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;69/85&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;92/113&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;91/110&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;45/55&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;60/70&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;055G/075P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;55/75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;85/114&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;113/157&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;112/150&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;55/75&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;70/100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;075G/093P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;75/93&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;114/134&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;157/180&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150/170&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;75/93&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100/125&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;093G/110P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;93/110&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;134/160&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;180/214&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;170/210&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;93/110&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;125/150&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;110G/132P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;110/132&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160/192&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;214/256&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;210/253&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;110/132&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150/180&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;132G/160P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;132/160&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;192/231&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;256/307&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;253/304&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;132/160&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;180/220&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160G/185P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160/185&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;231/245&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;307/345&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;304/340&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160/185&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220/250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;185G/200P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;185/200&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;245/260&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;345/385&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;340/377&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;185/200&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250/275&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;200G/220P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;200/220&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;260/280&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;385/430&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;377/426&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;200/220&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;275/300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220G/250P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220/250&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;280/355&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;430/468&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;426/465&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220/250&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;300/340&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250G/280P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250/280&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;355/396&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;468/525&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;465/520&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250/280&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;340/380&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;280G/315P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;280/315&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;396/445&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;525/590&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;520/585&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;280/315&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;380/430&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;315G/355P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;315/355&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;445/500&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;590/665&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;585/650&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;315/355&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;430/480&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;355G/400P-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;355/400&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;500/565&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;665/785&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;650/725&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;355/400&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;480/545&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;400G-T4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;400&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;565&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;786&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;725&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;400&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;545&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.5 Keyboard Tray Dimensions Diagram</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/keyboard-tray-dimensional-diagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/keyboard-tray-dimensional-diagram/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/jp.jpg&#34; alt=&#34;Keyboard Physical Image&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Inverter Structure&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;C Series Tray Opening Size&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;H Series Tray Opening Size&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Opening Size Image&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/cjp.jpg&#34; alt=&#34;C Series Tray Opening Size&#34; loading=&#34;lazy&#34; /&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/hjp.jpg&#34; alt=&#34;H Series Tray Opening Size&#34; loading=&#34;lazy&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.6 Daily Maintenance and Care of Variable Frequency Drives</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/the-daily-maintenance-and-service-of-variable-frequency-drives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/the-daily-maintenance-and-service-of-variable-frequency-drives/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;2.6.1 Routine Maintenance&lt;span class=&#34;absolute -mt-20&#34; id=&#34;261-routine-maintenance&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#261-routine-maintenance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Due to the influence of environmental factors such as temperature, humidity, dust, and vibration, the internal components of the variable frequency drive may age, leading to potential failures or reduced lifespan of the drive. Therefore, it is necessary to implement routine and regular maintenance and upkeep of the variable frequency drive.&lt;/p&gt;
+&lt;h4&gt;Daily Inspection Items:&lt;span class=&#34;absolute -mt-20&#34; id=&#34;daily-inspection-items&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#daily-inspection-items&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Any abnormal changes in the sound of the motor during operation.&lt;/li&gt;
+&lt;li&gt;Any vibration occurring during motor operation.&lt;/li&gt;
+&lt;li&gt;Any changes in the installation environment of the variable frequency drive.&lt;/li&gt;
+&lt;li&gt;Proper functioning of the cooling fan of the variable frequency drive.&lt;/li&gt;
+&lt;li&gt;Any signs of overheating in the variable frequency drive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Daily Cleaning:&lt;span class=&#34;absolute -mt-20&#34; id=&#34;daily-cleaning&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#daily-cleaning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;The variable frequency drive should always be kept clean.&lt;/li&gt;
+&lt;li&gt;Remove dust effectively from the surface of the variable frequency drive to prevent it from entering the interior, especially metal dust.&lt;/li&gt;
+&lt;li&gt;Clean the cooling fan of the variable frequency drive from oil contamination.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2.6.2 Periodic Inspection&lt;span class=&#34;absolute -mt-20&#34; id=&#34;262-periodic-inspection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#262-periodic-inspection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Regularly inspect areas that are difficult to examine during operation.&lt;/p&gt;
+&lt;h4&gt;Periodic Inspection Items:&lt;span class=&#34;absolute -mt-20&#34; id=&#34;periodic-inspection-items&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#periodic-inspection-items&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Inspect the air ducts and clean them regularly.&lt;/li&gt;
+&lt;li&gt;Check for loose screws.&lt;/li&gt;
+&lt;li&gt;Check for corrosion on the variable frequency drive.&lt;/li&gt;
+&lt;li&gt;Check for arc marks on terminal connections.&lt;/li&gt;
+&lt;li&gt;Insulation resistance test of the main circuit.
+Note: When measuring insulation resistance with a megger (use a DC 500V megger), disconnect the main circuit lines from the variable frequency drive. Do not test the insulation of the control circuit with an insulation resistance tester. High voltage testing is not necessary (already completed at the factory).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2.6.3 Replacement of Vulnerable Parts of the Variable Frequency Drive&lt;span class=&#34;absolute -mt-20&#34; id=&#34;263-replacement-of-vulnerable-parts-of-the-variable-frequency-drive&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#263-replacement-of-vulnerable-parts-of-the-variable-frequency-drive&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The vulnerable parts of the variable frequency drive mainly include cooling fans and electrolytic capacitors used for filtering, whose lifespan is closely related to the operating environment and maintenance conditions. Generally, the lifespan is:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Device Name&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Lifespan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cooling Fan&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2~3 years&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Electrolytic Capacitor&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4~5 years&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Users can determine replacement intervals based on operating time.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Cooling Fan&lt;br&gt;
+Possible Causes of Damage: Bearing wear, blade aging.&lt;br&gt;
+Judgment Criteria: Check for cracks in the fan blades, and listen for abnormal vibration sounds during startup.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Filter Electrolytic Capacitor&lt;br&gt;
+Possible Causes of Damage: Poor input power quality, high environmental temperatures, frequent load fluctuations, electrolyte aging.&lt;br&gt;
+Judgment Criteria: Check for leakage of liquid, whether the safety valve has protruded, measurement of static capacitors, measurement of insulation resistance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;2.6.4 Storage of Variable Frequency Drives&lt;span class=&#34;absolute -mt-20&#34; id=&#34;264-storage-of-variable-frequency-drives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#264-storage-of-variable-frequency-drives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After purchasing variable frequency drives, attention must be paid to temporary and long-term storage:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;During storage, it is best to pack them in the original packaging provided by our company.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Long-term storage can cause deterioration of the electrolytic capacitors. It is necessary to ensure that the variable frequency drives are powered up at least once every 2 years, for a minimum of 5 hours. The input voltage must be slowly increased to the rated value using a voltage regulator.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.7 Variable Frequency Drive Selection Guide</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/variable-frequency-drive-selection-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/variable-frequency-drive-selection-guide/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The inverter can provide three control modes: general V/F, SVC, and VC.&lt;/p&gt;
+&lt;p&gt;When selecting an inverter, it is necessary to first clarify the technical requirements for variable frequency speed regulation of the system, the specific application scenarios of the inverter, and the characteristics of the load. Comprehensive considerations should be made from factors such as matching motors, output voltage, rated output current, etc., to choose a model that meets the requirements and determine the operating mode.&lt;/p&gt;
+&lt;p&gt;The basic principle is that the motor&amp;rsquo;s rated load current should not exceed the inverter&amp;rsquo;s rated current. Generally, select the motor capacity specified in the inverter manual, and compare the rated currents of the motor and the inverter. The overload capacity of the inverter is only meaningful during startup and braking. Short-term overloads during operation will cause changes in the load speed. If high speed accuracy is required, consider selecting a model with higher overload capacity.&lt;/p&gt;
+&lt;p&gt;For fan and pump types: Low overload capacity is required because the load torque is proportional to the square of the speed. When running at low speeds, the load is lighter (except for Roots blowers). Since this type of load does not have special requirements for speed accuracy, select the square torque V/F mode.&lt;/p&gt;
+&lt;p&gt;Constant torque load: Most loads have constant torque characteristics, but generally do not have high requirements for speed accuracy and dynamic performance. For example, extruders, mixers, conveyors, in-plant transport carts, and crane translation mechanisms. For selection, you can choose the multi-section V/F operating mode.&lt;/p&gt;
+&lt;p&gt;The controlled object has certain dynamic and static index requirements: Such loads generally require relatively stiff mechanical characteristics at low speeds to meet the dynamic and static index requirements of the control system for production processes. For selection, you can choose the SVC control mode.&lt;/p&gt;
+&lt;p&gt;The controlled object has higher dynamic and static index requirements: For occasions with high requirements for speed accuracy and dynamic performance, and for high-precision synchronous control, you can choose the VC control mode. For example, elevators, papermaking, and plastic film processing production lines.&lt;/p&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2.8 Variable Frequency Drive Brake Component Selection Guide</title>
+      <link>http://localhost:1313/en/docs/vfd/product-information/variable-frequency-drive-braking-component-selection-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/product-information/variable-frequency-drive-braking-component-selection-guide/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;2.8.1 Selection of Resistance Value&lt;span class=&#34;absolute -mt-20&#34; id=&#34;281-selection-of-resistance-value&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#281-selection-of-resistance-value&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;During braking, the regenerative energy of the motor is almost entirely consumed in the braking resistor.&lt;br&gt;
+According to the formula: U*U/R=Pb&lt;br&gt;
+● In the formula, U represents the braking voltage for stable braking of the system&lt;br&gt;
+(For different systems, the value varies. For a 380VAC system, it is generally taken as 700V)&lt;br&gt;
+● Pb represents the braking power&lt;/p&gt;
+&lt;h3&gt;2.8.2 Power Selection of Braking Resistor&lt;span class=&#34;absolute -mt-20&#34; id=&#34;282-power-selection-of-braking-resistor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#282-power-selection-of-braking-resistor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Theoretically, the power of the braking resistor should be consistent with the braking power, but considering a derating factor of 70%,&lt;br&gt;
+the formula becomes: 0.7&lt;em&gt;Pr=Pb&lt;/em&gt;D&lt;br&gt;
+● Pr represents the power of the resistor&lt;br&gt;
+● D represents the braking frequency (the proportion of the entire working process occupied by the regenerative process)&lt;/p&gt;
+&lt;p&gt;For different applications, the following braking frequencies can be considered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Elevators: 20%~30%&lt;/li&gt;
+&lt;li&gt;Unwinding and coiling machines: 20%~30%&lt;/li&gt;
+&lt;li&gt;Centrifuges: 50%~60%&lt;/li&gt;
+&lt;li&gt;Occasionally braked loads: 5%&lt;/li&gt;
+&lt;li&gt;General cases: 10%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2.8.3 Selection Table for Inverter Braking Components&lt;span class=&#34;absolute -mt-20&#34; id=&#34;283-selection-table-for-inverter-braking-components&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#283-selection-table-for-inverter-braking-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Inverter Power&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Recommended Braking Resistor Power&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Recommended Resistance Value for Braking Resistor&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Braking Unit&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Remarks&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1.5KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥220Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2.2KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;200Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3.7KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;300W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥130Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;400W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥90Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;500W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥65Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;800W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥43Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1000W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥32Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Standard Built-in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;No special instructions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;18.5KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1300W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥25Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Built-in optional&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Append &amp;ldquo;B&amp;rdquo; to the inverter model number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1500W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥22Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Built-in optional&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Append &amp;ldquo;B&amp;rdquo; to the inverter model number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;30KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2500W&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥16Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Internal Optional&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Add &amp;ldquo;B&amp;rdquo; to the inverter model number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;37KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3.7 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥16.0Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-35-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;45KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4.5 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥16Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-70-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;55KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥8Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-70-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;75KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;7.5 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥8Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-70-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;90KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4.5 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥8Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-70-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;110KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;5.5 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥8Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-70-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;132KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;6.5 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥8Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;160KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;200KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;220KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;22 kW&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;250KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12.5 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;280KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;315KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;355KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;17 kW×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;400KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;14 kW×3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;450KWT4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;15 kW×3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;≥2.5Ω×3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;External&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;VFDBU-200-B×3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;(Note: &amp;ldquo;×2&amp;rdquo; indicates two braking units used in parallel, each with its own braking resistor. &amp;ldquo;×3&amp;rdquo; has the same meaning as &amp;ldquo;×2&amp;rdquo;.)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&#34;overflow-x-auto mt-6 flex rounded-lg border py-2 ltr:pr-4 rtl:pl-4 contrast-more:border-current contrast-more:dark:border-current border-blue-200 bg-blue-100 text-blue-900 dark:border-blue-200/30 dark:bg-blue-900/30 dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;ltr:pl-3 ltr:pr-2 rtl:pr-3 rtl:pl-2&#34;&gt;&lt;div class=&#34;select-none text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;
+        ℹ️
+      &lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;w-full min-w-0 leading-7&#34;&gt;
+    &lt;div class=&#34;mt-6 leading-7 first:mt-0&#34;&gt;
+      Note
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+This selection table provides guidance data. Users may choose different resistor values and powers based on actual conditions (but the resistance value must not be less than the recommended value in the table, while the power can be greater). The selection of braking resistors needs to be determined based on the power generated by the motor in the actual application system, which is related to the system&amp;rsquo;s inertia, deceleration time, and the energy of potential load. Customers need to choose based on actual conditions. The larger the system&amp;rsquo;s inertia, the shorter the required deceleration time, and the more frequent the braking, the greater the power and the smaller the resistance value needed for the braking resistor.&lt;/p&gt;
+&lt;h3&gt;NEXT&lt;span class=&#34;absolute -mt-20&#34; id=&#34;next&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

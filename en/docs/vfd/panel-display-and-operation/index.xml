@@ -1,0 +1,482 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linyi Senkuo Electromechanical Co., Ltd. – Chapter 4 Panel Display and Operation</title>
+    <link>http://localhost:1313/en/docs/vfd/panel-display-and-operation/</link>
+    <description>Recent content in Chapter 4 Panel Display and Operation on Linyi Senkuo Electromechanical Co., Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="http://localhost:1313/en/docs/vfd/panel-display-and-operation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>4.1 Display Interface Introduction</title>
+      <link>http://localhost:1313/en/docs/vfd/panel-display-and-operation/display-interface-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/panel-display-and-operation/display-interface-introduction/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The operational panel allows for functional parameter modification of the variable frequency drive (VFD), monitoring its operational status, and performing operations such as start and stop. Its appearance and functional areas are depicted in the following figure:
+&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/cmb.jpg&#34; title=&#34;Diagram of the Operational Panel of C Series Variable Frequency Drives&#34; alt=&#34;Diagram of the Operational Panel of C Series Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Diagram of the Operational Panel of C Series Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Functional Indicators and Buttons on the Operational Panel of C Series Variable Frequency Drives&lt;span class=&#34;absolute -mt-20&#34; id=&#34;functional-indicators-and-buttons-on-the-operational-panel-of-c-series-variable-frequency-drives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#functional-indicators-and-buttons-on-the-operational-panel-of-c-series-variable-frequency-drives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Symbol&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Function Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PRG&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Program Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Enter or exit menu, modify parameters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ENTER&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Enter Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Select parameter modification, shift, and display content&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;🔼&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Increment Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Increment data or function code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;🔽&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Decrement Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Decrement data or function code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;▶️&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Shift Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Switch selection based on function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;RUN&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Run Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Enter menu, confirm parameter settings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;STOP/RESET&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Stop/Reset Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Run operations in keyboard operation mode&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;FUNC&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-function Shortcut Key&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Jogging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;REV&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter reverse indicator light, lit when in reverse operation status&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;FWD&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter forward indicator light, lit when in forward operation status&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ALM&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Inverter fault indicator light, lit when in fault status&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Hz&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Frequency unit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;A&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Current unit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;V&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Indicator Light&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Voltage unit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/hmb.jpg&#34; title=&#34;Diagram of the Operational Panel of H Series Variable Frequency Drives&#34; alt=&#34;Diagram of the Operational Panel of H Series Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Diagram of the Operational Panel of H Series Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Functional Indicators and Buttons on the Operational Panel of H Series Variable Frequency Drives&lt;span class=&#34;absolute -mt-20&#34; id=&#34;functional-indicators-and-buttons-on-the-operational-panel-of-h-series-variable-frequency-drives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#functional-indicators-and-buttons-on-the-operational-panel-of-h-series-variable-frequency-drives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Function Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Unit Indicator Lights&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Hz: Frequency unit; A: Current unit; V: Voltage unit;&lt;/br&gt;RMP(Hz+A): Speed unit; %(A+V): Percentage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Status Indicator Lights&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;RUN: On/Running; Off/Stopped;&lt;/br&gt;FWD/REV: On/Forward; Off/Reverse; Flashing/Transitioning between forward and reverse;&lt;/br&gt;TUNE/TC: Slow Flashing/Tuning mode; Fast Flashing/Communication mode; Slow flash about once per second; Fast flash about twice per second;&lt;/br&gt;LOCAL/REMOTE: On/Terminal control; Flashing/Communication control; Off/Keyboard control.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PRG (Program Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Enter or exit primary menu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ENTER (Enter Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Navigate through menu screens, confirm parameter settings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;🔼 (Increment Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Increment data or function code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;🔽 (Decrement Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Decrement data or function code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;▶️ (Shift Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;In stop display and run display modes, cyclically select displayed parameters; when modifying parameters, select the parameter modification bit.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;RUN (Run Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Used for running operations in keyboard operation mode.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;STOP/RESET (Stop/Reset Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;In run state, press to stop running operations; in fault alarm state, use to reset operations, characteristics of this key are constrained by function code F7.02.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;MF.K (Multi-function Shortcut Key)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Function selection switch based on F7.01.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Knob (Pulse Potentiometer)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Can be used as frequency setting source. When set as frequency source for the inverter, clockwise rotation increases the setting, counterclockwise rotation decreases the setting.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Explanation of Viewing and Modifying Function Codes on the Variable Frequency Drive&lt;span class=&#34;absolute -mt-20&#34; id=&#34;explanation-of-viewing-and-modifying-function-codes-on-the-variable-frequency-drive&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#explanation-of-viewing-and-modifying-function-codes-on-the-variable-frequency-drive&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The operational panel of the variable frequency drive uses a three-level menu structure for parameter settings and other operations. The three levels of menus are: function parameter level (primary menu) → function code (secondary menu) → function code setting value (tertiary menu). The operation process is depicted in the following figure:
+&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/lct.jpg&#34; title=&#34;Diagram of Operation Process of Variable Frequency Drive&amp;#39;s Three-level Menu&#34; alt=&#34;Diagram of Operation Process of Variable Frequency Drive&amp;rsquo;s Three-level Menu&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Diagram of Operation Process of Variable Frequency Drive&amp;#39;s Three-level Menu&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Note: When operating in the tertiary menu, pressing the PRG (programming) key or ENTER (confirm) key will return to the secondary menu. The difference between the two is: pressing the ENTER (confirm) key will save the parameter settings and return to the secondary menu, automatically moving to the next function code; pressing the PRG (programming) key will directly return to the secondary menu without storing parameters and return to the current function code.
+Example: Changing function code P3-02 from 10.00Hz to 15.00Hz. (Bold indicates blinking bit)
+&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jl.jpg&#34; title=&#34;Example of Setting Parameters in the Three-level Menu of the Variable Frequency Drive&#34; alt=&#34;Example of Setting Parameters in the Three-level Menu of the Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Example of Setting Parameters in the Three-level Menu of the Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In the tertiary menu state, if parameters do not have a blinking bit, it indicates that the function code cannot be modified. Possible reasons include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The function code is a non-modifiable parameter. Such as actual detection parameters, running record parameters.&lt;/li&gt;
+&lt;li&gt;The function code cannot be modified in the running state and needs to be stopped before modification.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>4.2 Terminal Application Wiring Diagram</title>
+      <link>http://localhost:1313/en/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/en/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Wiring Diagram for 0.75~37KW Variable Frequency Drives&lt;span class=&#34;absolute -mt-20&#34; id=&#34;wiring-diagram-for-07537kw-variable-frequency-drives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wiring-diagram-for-07537kw-variable-frequency-drives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt1.jpg&#34; title=&#34;Wiring Diagram for External Potentiometer Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External Potentiometer Connection of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External Potentiometer Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt2.jpg&#34; title=&#34;Wiring Diagram for External Button Start/Stop Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External Button Start/Stop Connection of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External Button Start/Stop Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Press the green button to start the VFD; press the red stop button to stop the VFD;&lt;br&gt;
+VFD parameter settings: P0-02=1; P4-02=3; P4-11=2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt3.jpg&#34; title=&#34;Wiring Diagram for External Three-gear Switch Forward/Reverse Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External Three-gear Switch Forward/Reverse Connection of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External Three-gear Switch Forward/Reverse Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Three-gear two normally open knobs, turned to the left for motor forward, turned to the middle for motor stop, turned to the right for motor reverse.&lt;br&gt;
+VFD parameter settings: P0-02=1&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt4.jpg&#34; title=&#34;Wiring Diagram for External On/Off Signal Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External On/Off Signal Connection of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External On/Off Signal Connection of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Connect X1 terminal and COM terminal to start the VFD; Disconnect X1 terminal and COM terminal to stop the VFD; Direct power-on, power-off, directly short COM and X1.&lt;br&gt;
+VFD parameter settings: P0-02=1&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt5.jpg&#34; title=&#34;Wiring Diagram for External Remote Pressure Transmitter Connection - Simple Constant Pressure Water Supply of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External Remote Pressure Transmitter Connection - Simple Constant Pressure Water Supply of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External Remote Pressure Transmitter Connection - Simple Constant Pressure Water Supply of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: The VFD serves as the core of the water supply system, able to monitor water pressure changes in real time and intelligently adjust the pump speed according to demand. When multiple users are using the water source simultaneously, the VFD will automatically increase the pump&amp;rsquo;s output power to maintain stable water pressure; while using smaller water flow rates, the VFD will decrease the pump&amp;rsquo;s output power to avoid excessive water pressure.&lt;br&gt;
+VFD parameter settings: P0-29=00001, b0-00=Pressure transmitter range, b0-01=Set pressure, b0-02=Sleep pressure, b0-03=Wake-up pressure;&lt;br&gt;
+Example: If the pressure transmitter range is 1MPA, b0-00=10, if the range is 1.6MPA, b0-00=16.&lt;br&gt;
+The upper line displays the set pressure, and the lower line displays the pressure transmitter feedback pressure. Adjust the set pressure using the 🔼/🔽 keys on the panel, with pressure displayed in kilograms. The upper line can switch between displaying bus voltage, current, frequency, set pressure, and feedback pressure using the ▶️ key.&lt;br&gt;
+🌟Note 1: After setting P0-29=00001, the default is external terminal operation. To start from the panel, set P0-02=0.&lt;br&gt;
+🌟Note 2: Settings for b0-02 and b0-03 are relative to b0-01 as a percentage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt6.jpg&#34; title=&#34;Wiring Diagram for External Pressure Sensor Connection - Simple Constant Pressure Water Supply of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&#34; alt=&#34;Wiring Diagram for External Pressure Sensor Connection - Simple Constant Pressure Water Supply of SKF8000 Series Vector Variable Frequency Drives&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Wiring Diagram for External Pressure Sensor Connection - Simple Constant Pressure Water Supply of SKF8000 Series 0.75~37KW Vector Variable Frequency Drives&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: The VFD serves as the core of the constant pressure water supply system, able to monitor water pressure changes in real time and intelligently adjust the pump speed according to demand. When multiple users are using the water source simultaneously, the VFD will automatically increase the pump&amp;rsquo;s output power to maintain stable water pressure; while using smaller water flow rates, the VFD will decrease the pump&amp;rsquo;s output power to avoid excessive water pressure.&lt;br&gt;
+VFD parameter settings: P0-29=00001, b0-00=Pressure transmitter range, b0-01=Set pressure, b0-02=Sleep pressure, b0-03=Wake-up pressure;&lt;br&gt;
+Example: If the pressure transmitter range is 1MPA, b0-00=10, if the range is 1.6MPA, b0-00=16.&lt;br&gt;
+The upper line displays the set pressure, and the lower line displays the pressure transmitter feedback pressure. Adjust the set pressure using the 🔼/🔽 keys on the panel, with pressure displayed in kilograms. The upper line can switch between displaying bus voltage, current, frequency, set pressure, and feedback pressure using the ▶️ key.&lt;br&gt;
+🌟Note 1: After setting P0-29=00001, the default is external terminal operation. To start from the panel, set P0-02=0.&lt;br&gt;
+🌟Note 2: Settings for b0-02 and b0-03 are relative to b0-01 as a percentage.&lt;/p&gt;
+&lt;h2&gt;45~720KW Variable Frequency Drive Wiring Diagram&lt;span class=&#34;absolute -mt-20&#34; id=&#34;45720kw-variable-frequency-drive-wiring-diagram&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#45720kw-variable-frequency-drive-wiring-diagram&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt7.jpg&#34; title=&#34;External Potentiometer Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;External Potentiometer Wiring Diagram for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;External Potentiometer Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt8.jpg&#34; title=&#34;Start-Stop Button Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;Start-Stop Button Wiring Diagram for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Start-Stop Button Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Pressing the green button starts the VFD; pressing the red stop button stops the VFD.&lt;br&gt;
+VFD Parameter Settings: P0-02=1; P4-02=3; P4-11=2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt9.jpg&#34; title=&#34;Forward-Reverse Switch Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;Forward-Reverse Switch Wiring Diagram for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Forward-Reverse Switch Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Three-position toggle switch: Left position for motor forward, middle position for motor stop, right position for motor reverse.&lt;br&gt;
+VFD Parameter Settings: P0-02=1&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt11.jpg&#34; title=&#34;On-Off Signal Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;On-Off Signal Wiring Diagram for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;On-Off Signal Wiring Diagram for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: Connecting X1 terminal to COM terminal starts the VFD; disconnecting X1 terminal from COM terminal stops the VFD; direct power-on starts, power-off stops, directly short COM and X1 terminals.&lt;br&gt;
+VFD Parameter Settings: P0-02=1&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt10.jpg&#34; title=&#34;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Transmitter for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Transmitter for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Transmitter for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: The VFD serves as the core of the constant pressure water supply system, capable of monitoring water pressure changes in real-time and intelligently adjusting the pump speed according to demand. When multiple users are simultaneously using the water source, the VFD automatically increases the pump output power to maintain stable water pressure; whereas when a smaller water flow rate is used, the VFD reduces the pump output power to avoid excessive water pressure.&lt;br&gt;
+VFD Parameter Settings: P0-29=00001, b0-00=Pressure transmitter range, b0-01=Set pressure, b0-02=Sleep pressure, b0-03=Wake-up pressure;&lt;br&gt;
+Example: If the pressure transmitter range is 1MPA, b0-00=10, if the range is 1.6MPA, b0-00=16.&lt;br&gt;
+The upper line displays the set pressure, and the lower line displays the pressure feedback from the pressure transmitter. Adjusting the set pressure is done through the panel&amp;rsquo;s increase🔼/decrease🔽 keys, with the pressure displayed in kilograms. The upper line can be toggled to display bus voltage, current, frequency, set pressure, and feedback pressure using the ▶️ key.&lt;br&gt;
+🌟 Note 1: After setting P0-29=00001, external terminal operation is the default; to enable panel startup, set P0-02=0.&lt;br&gt;
+🌟 Note 2: Settings for b0-02 and b0-03 are percentages relative to b0-01.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/jxt12.jpg&#34; title=&#34;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Sensor for SKF8000 Series 45~720KW Vector Variable Frequency Drive&#34; alt=&#34;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Sensor for SKF8000 Series Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Simple Constant Pressure Water Supply Wiring Diagram with External Pressure Sensor for SKF8000 Series 45~720KW Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;br&gt;
+Explanation: The VFD serves as the core of the water supply system, capable of monitoring water pressure changes in real-time and intelligently adjusting the pump speed according to demand. When multiple users are simultaneously using the water source, the VFD automatically increases the pump output power to maintain stable water pressure; whereas when a smaller water flow rate is used, the VFD reduces the pump output power to avoid excessive water pressure.&lt;br&gt;
+VFD Parameter Settings: P0-29=00001, b0-00=Pressure sensor range, b0-01=Set pressure, b0-02=Sleep pressure, b0-03=Wake-up pressure;&lt;br&gt;
+Example: If the pressure sensor range is 1MPA, b0-00=10, if the range is 1.6MPA, b0-00=16.&lt;br&gt;
+The upper line displays the set pressure, and the lower line displays the pressure feedback from the pressure sensor. Adjusting the set pressure is done through the panel&amp;rsquo;s increase🔼/decrease🔽 keys, with the pressure displayed in kilograms. The upper line can be toggled to display bus voltage, current, frequency, set pressure, and feedback pressure using the ▶️ key.&lt;br&gt;
+🌟 Note 1: After setting P0-29=00001, external terminal operation is the default; to enable panel startup, set P0-02=0.&lt;br&gt;
+🌟 Note 2: Settings for b0-02 and b0-03 are percentages relative to b0-01.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/yyyb.jpg&#34; title=&#34;One-to-One Backup Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&#34; alt=&#34;One-to-One Backup Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;One-to-One Backup Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/images/yblg.jpg&#34; title=&#34;One Frequency Conversion with Two Utility Frequency Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&#34; alt=&#34;One Frequency Conversion with Two Utility Frequency Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;One Frequency Conversion with Two Utility Frequency Wiring Diagram for SKF8000 Series High-Performance Universal Vector Variable Frequency Drive&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Function Description of Multi-speed Command for SKF8000 Series General Purpose Variable Frequency Drive&lt;span class=&#34;absolute -mt-20&#34; id=&#34;function-description-of-multi-speed-command-for-skf8000-series-general-purpose-variable-frequency-drive&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#function-description-of-multi-speed-command-for-skf8000-series-general-purpose-variable-frequency-drive&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;There are 4 multi-speed command terminals, which can be combined into 16 states, corresponding to 16 instruction set values. Specifically, as shown in the table below:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;K4&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;K3&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;K2&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;K1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Instruction Set&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Corresponding Parameter&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 5&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 6&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 7&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 9&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 10&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 11&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 12&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 13&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;OFF&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 14&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ON&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Multi-speed 15&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PC-15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;When the frequency source is set to multi-speed, the function codes PC-00 to PC-15 correspond to 100%, with PC-10 (maximum frequency) corresponding to 100%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explore these documents to learn more.&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Purchase high-performance vector frequency drives now.&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/table-of-contents/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Table of Contents for the Variable Frequency Drive User Manual&lt;/span&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Frequently Asked Questions (FAQs) about Variable Frequency Drives&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
