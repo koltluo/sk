@@ -30,6 +30,34 @@ The "Senkuo" brand carries a profound meaning, where "Sen" symbolizes the breadt
 
 Senkuo Electromechanical is not just a brand but also a commitment, representing a steadfast adherence to product quality, a pursuit of technological innovation, and a focus on customer service. We are committed to being the most trusted partner for our customers, working together to create a better future for industrial automation.
 
+## Main products
+### Motor Driven
+
+[Vector inverter](/en/products/motor-driven/vfd/)|[On line Soft Start Control Cabinet](/en/products/motor-driven/on-line-soft-start-control-cabinet/)|[On line soft starter](/en/products/motor-driven/soft-starter/)|[External Bypass Soft Starter](/en/products/motor-driven/external-bypass-soft-starter/)|[autotransformer reduced voltage starter cabine](/en/products/motor-driven/autotransformer-reduced-voltage-starter-cabinet/)|
+
+
+
+### Low voltage Complete switch cabinet
+
+[gck type low voltage withdrawable complete switchgear](/en/products/low-voltage-complete-switch-cabinet/gck-type-low-voltage-withdrawable-complete-switchgear/)|[gcs type low voltage withdrawable complete switchgear](/en/products/low-voltage-complete-switch-cabinet/gcs-type-low-voltage-withdrawable-complete-switchgear/)|[ggd type low voltage fixed switch cabinet](/en/products/low-voltage-complete-switch-cabinet/ggd-type-low-voltage-fixed-switch-cabinet/)|
+[ggj low voltage reactive power compensation device](/en/products/low-voltage-complete-switch-cabinet/ggj-low-voltage-reactive-power-compensation-device/)|[gzdw intelligent high frequency dc control panel](/en/products/low-voltage-complete-switch-cabinet/gzdw-intelligent-high-frequency-dc-control-panel/)|
+[mns type low voltage withdrawable complete switchgear](/en/products/low-voltage-complete-switch-cabinet/mns-type-low-voltage-withdrawable-complete-switchgear/)|[xl 21 type floor distribution cabinet](/en/products/low-voltage-complete-switch-cabinet/xl-21-type-floor-distribution-cabinet/)|[pz30 modularized terminal combined electric appliance](/en/products/low-voltage-complete-switch-cabinet/pz30-modularized-terminal-combined-electric-appliance/)|[jxf series wall mounted distribution box](/en/products/low-voltage-complete-switch-cabinet/jxf-series-wall-mounted-distribution-box/)|
+
+
+### High Voltage Switchgear Cabinet
+[hxgn17-12-unit-ac-metal-enclosed-ring-network-switchgear](/en/products/high-voltage-switchgear-cabinet/hxgn17-12-unit-ac-metal-enclosed-ring-network-switchgear/)|[xgn66-12-type-fixed-closed-switchgear](/en/products/high-voltage-switchgear-cabinet/xgn66-12-type-fixed-closed-switchgear/)|[kyn28-12-armored-removable-ac-metal-enclosed-switchgear](/en/products/high-voltage-switchgear-cabinet/kyn28-12-armored-removable-ac-metal-enclosed-switchgear/)|[kyn28a-24-type-removable-ac-metal-enclosed-switchgear](/en/products/high-voltage-switchgear-cabinet/kyn28a-24-type-removable-ac-metal-enclosed-switchgear/)|[KYN61-40.5 armored-mobile-ac-metal-enclosed-switchgear](/en/products/high-voltage-switchgear-cabinet/kyn61-40.5-armored-mobile-ac-metal-enclosed-switchgear/)|[XGN15-12 box-type-fixed-ac-metal-enclosed-switchgear](/en/products/high-voltage-switchgear-cabinet/hxgn15-12-box-type-fixed-ac-metal-enclosed-switchgear/)|[TBBZ high-voltage-reactive-power-automatic-compensation-device](/en/products/high-voltage-switchgear-cabinet/tbb-10-high-voltage-reactive-power-automatic-compensation-device/)|
+### High voltage components
+[AB 3S 12 permanent magnet vacuum circuit breaker](/en/products/high-voltage-components/ab-3s-12-permanent-magnet-vacuum-circuit-breaker/)|[FZW28 12F outdoor vacuum boundary switch](/en/products/high-voltage-components/fzw28-12f-outdoor-vacuum-boundary-switch/)|[VSP5 12 outdoor vacuum boundary switch](/en/products/high-voltage-components/vsp5-12-outdoor-vacuum-boundary-switch/)|[ZW20 12F smart vacuum circuit breaker](/en/products/high-voltage-components/zw20-12f-smart-vacuum-circuit-breaker/)|[ZW20A 12 vacuum circuit breaker](/en/products/high-voltage-components/zw20a-12-vacuum-circuit-breaker/)|[ZW32 12F High Voltage Intelligent Vacuum Circuit Breaker](/en/products/high-voltage-components/zw32-12f-high-voltage-intelligent-vacuum-circuit-breaker/)|[ZW32 12G outdoor high voltage vacuum circuit breaker](/en/products/high-voltage-components/zw32-12g-outdoor-high-voltage-vacuum-circuit-breaker/)|[ZW32 24 outdoor high voltage vacuum circuit breaker](/en/products/high-voltage-components/zw32-24-outdoor-high-voltage-vacuum-circuit-breaker/)|[ZW32 40.5 outdoor high voltage vacuum circuit breaker](/en/products/high-voltage-components/zw32-40.5-outdoor-high-voltage-vacuum-circuit-breaker/)|[ZW43 12F High Voltage Intelligent Vacuum Circuit Breaker](/en/products/high-voltage-components/zw43-12f-high-voltage-intelligent-vacuum-circuit-breaker-zw43-12/)
+
+
+### box-type substation
+[YB27-12/0.4 prefabricated-substation](/en/products/substation/yb27-prefabricated-substation/)|[YBM-12/0.4 outdoor-pre-installed-substation](/en/products/substation/ybm-12-outdoor-pre-installed-substation/)
+
+
+### Transformer
+
+[S11 M 10kV oil immersed transformer](/en/products/transformer/s11-m-10kv-oil-immersed-transformer/)|[S9M 10kV three phase oil immersed fully sealed power transformer](/en/products/transformer/s9-m-10kv-three-phase-oil-immersed-fully-sealed-power-transformer/)|[SCB10 10kV resin insulated dry type transformer](/en/products/transformer/scb10-10kv-resin-insulated-dry-type-transformer/)
+
 ----
 
 ## 公司简介
