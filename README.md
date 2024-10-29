@@ -34,7 +34,7 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 
 ## 公司简介
 
-[**临沂森阔机电有限公司**] (https://www.lyskjd.com) ，位于中国山东省临沂市，是一家专业从事工业自动化控制设备研发、生产与销售的高新技术企业。我们的产品线涵盖变频器、软启动器、软启动柜、变频控制柜以及高低压元器件和成套设备，广泛应用于机械制造、电力、矿业、建筑和石油化工等行业。
+[**临沂森阔机电有限公司**](https://www.lyskjd.com) ，位于中国山东省临沂市，是一家专业从事工业自动化控制设备研发、生产与销售的高新技术企业。我们的产品线涵盖变频器、软启动器、软启动柜、变频控制柜以及高低压元器件和成套设备，广泛应用于机械制造、电力、矿业、建筑和石油化工等行业。
 森阔机电坚持以技术创新为核心，拥有一支由资深工程师和专业技术人员组成的研发团队，致力于为客户提供高效、节能、稳定可靠的工业自动化解决方案。我们的生产基地采用先进的制造工艺和严格的质量管理体系，确保每一台设备都能达到最高标准。
 
 ## 品牌故事
@@ -66,9 +66,8 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 
 ### 电机驱动类产品
 
-| :----:    |    :----:   | 
-| [![矢量变频器](/images/Vector-inverter/4.jpg "矢量变频器")](/products/motor-driven/vfd/)   |    [![在线软启动柜](/images/On-line-Soft-Start-Control-Cabinet/2.jpg "在线软启动柜")](/products/motor-driven/on-line-soft-start-control-cabinet/)    | 
-| [![在线软启动器](/images/On-line-soft-starter/5.jpg "在线软启动器")](/products/motor-driven/soft-starter/)   |    [![旁路软启动器](/images/External-Bypass-Soft-Starter/1.jpg "旁路软启动器")](/products/motor-driven/external-bypass-soft-starter/)    | 
+| :----:    |    :----:   |     :----:   |    :----:   | 
+| [矢量变频器](/products/motor-driven/vfd/)   |    [在线软启动柜](/products/motor-driven/on-line-soft-start-control-cabinet/)    | [在线软启动器](/products/motor-driven/soft-starter/)   |    [旁路软启动器](/products/motor-driven/external-bypass-soft-starter/)    | 
 
 
 ### 低压成套设备
