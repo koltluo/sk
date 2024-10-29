@@ -66,36 +66,26 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 
 ### 电机驱动类产品
 
-| :----:    |    :----:   |     :----:   |    :----:   | 
-| [矢量变频器](/products/motor-driven/vfd/)   |    [在线软启动柜](/products/motor-driven/on-line-soft-start-control-cabinet/)    | [在线软启动器](/products/motor-driven/soft-starter/)   |    [旁路软启动器](/products/motor-driven/external-bypass-soft-starter/)    | 
+| [矢量变频器](https://www.lyskjd.com/products/motor-driven/vfd/)   |    [在线软启动柜](https://www.lyskjd.com/products/motor-driven/on-line-soft-start-control-cabinet/)    | [在线软启动器](https://www.lyskjd.com/products/motor-driven/soft-starter/)   |    [旁路软启动器](/products/motor-driven/external-bypass-soft-starter/)    | 
 
 
 ### 低压成套设备
 
-| :----:    |    :----:   | 
-| [![GCK 低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/42.png "GCK 低压抽屉柜成套开关设备")](/products/low-voltage-complete-switch-cabinet/gck-type-low-voltage-withdrawable-complete-switchgear/)   |    [![GCS 交流低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/38.png "GCS 交流低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/gcs-type-low-voltage-withdrawable-complete-switchgear/)    | 
-| [![GGD 低压开启式成套开关设备](/images/Complete-switch-cabinet/43.png "GGD 低压开启式成套开关设备")](/products/low-voltage-complete-switch-cabinet/ggd-type-low-voltage-fixed-switch-cabinet/)   |    [![GGJ 低压电容成套开关设备](/images/Complete-switch-cabinet/41.jpg "GCS 交流低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/ggj-low-voltage-reactive-power-compensation-device/)    | 
-| [![GZDW 智能高频直流屏](/images/Complete-switch-cabinet/36.png "GZDW 智能高频直流屏")](/products/low-voltage-complete-switch-cabinet/gzdw-intelligent-high-frequency-dc-control-panel/)   |    [![MNS 低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/39.png "MNS 低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/mns-type-low-voltage-withdrawable-complete-switchgear/)    | 
-| [![XL-21 交流低压动力配电柜](/images/Complete-switch-cabinet/37.png "XL-21 交流低压动力配电柜")](/products/low-voltage-complete-switch-cabinet/xl-21-type-floor-distribution-cabinet/)   |    [![PZ30低压照明箱](/images/Complete-switch-cabinet/12.png "PZ30低压照明箱](/products/low-voltage-complete-switch-cabinet/pz30-modularized-terminal-combined-electric-appliance/)    | 
 
-
-
-
+| [GCK 低压抽屉柜成套开关设备](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/gck-type-low-voltage-withdrawable-complete-switchgear/)   |    [GCS 交流低压抽屉柜成套开关设备](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/gcs-type-low-voltage-withdrawable-complete-switchgear/)    | [GGD 低压开启式成套开关设备](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/ggd-type-low-voltage-fixed-switch-cabinet/)   |    [GGJ 低压电容成套开关设备](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/ggj-low-voltage-reactive-power-compensation-device/)  | [GZDW 智能高频直流屏](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/gzdw-intelligent-high-frequency-dc-control-panel/)   |    [MNS 低压抽屉柜成套开关设备](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/mns-type-low-voltage-withdrawable-complete-switchgear/)   | [XL-21 交流低压动力配电柜](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/xl-21-type-floor-distribution-cabinet/)   |    [PZ30低压照明箱](https://www.lyskjd.com/products/low-voltage-complete-switch-cabinet/pz30-modularized-terminal-combined-electric-appliance/)    | 
 
 
 ### 高压成套设备
-| :----:    |    :----:   | 
-| [![HXGN17-12 箱式交流金属封闭开关设备](/images/Complete-switch-cabinet/24.jpg "HXGN17-12 箱式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/hxgn17-12-unit-ac-metal-enclosed-ring-network-switchgear/)   |    [![HXGN66-12 固定式金属封闭开关设备](/images/Complete-switch-cabinet/27.jpg "HXGN66-12 固定式金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/xgn66-12-type-fixed-closed-switchgear/)    | 
-| [![KYN28-12(Z) 交流金属铠装式开关设备](/images/Complete-switch-cabinet/28.jpg "KYN28-12(Z) 交流金属铠装式开关设备")](/products/high-voltage-switchgear-cabinet/kyn28-12-armored-removable-ac-metal-enclosed-switchgear/)   |    [![KYN28A-24 铠装移开式交流金属封闭开关设备](/images/Complete-switch-cabinet/29.jpg "KYN28A-24 铠装移开式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/kyn28a-24-type-removable-ac-metal-enclosed-switchgear/)    | 
-| [![KYN61-40.5(Z) 铠装移开式交流金属封闭开关设备](/images/Complete-switch-cabinet/34.jpg "KYN61-40.5(Z) 铠装移开式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/kyn61-40.5-armored-mobile-ac-metal-enclosed-switchgear/)   |    [![XGN15-12 箱式固定交流金属封闭开关设备](/images/Complete-switch-cabinet/25.jpg "XGN15-12 箱式固定交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/hxgn15-12-box-type-fixed-ac-metal-enclosed-switchgear/)    | 
+
+| [HXGN17-12 箱式交流金属封闭开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/hxgn17-12-unit-ac-metal-enclosed-ring-network-switchgear/)   |    [HXGN66-12 固定式金属封闭开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/xgn66-12-type-fixed-closed-switchgear/)  | [KYN28-12(Z) 交流金属铠装式开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/kyn28-12-armored-removable-ac-metal-enclosed-switchgear/)   |    [KYN28A-24 铠装移开式交流金属封闭开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/kyn28a-24-type-removable-ac-metal-enclosed-switchgear/)   | [KYN61-40.5(Z) 铠装移开式交流金属封闭开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/kyn61-40.5-armored-mobile-ac-metal-enclosed-switchgear/)   |    [XGN15-12 箱式固定交流金属封闭开关设备](https://www.lyskjd.com/products/high-voltage-switchgear-cabinet/hxgn15-12-box-type-fixed-ac-metal-enclosed-switchgear/)    | 
 
 
 ### 箱式变电站
 
-| :----:    |    :----:   | 
-| [![YB27-12/0.4 高压/低压预装式变电站 ( 美式 )](/images/ZGS/1.jpg "YB27-12/0.4 高压/低压预装式变电站 ( 美式 )")](/products/substation/yb27-prefabricated-substation/)   |    [![YBM-12/0.4 户外预装式变电站 ( 欧式 )](/images/YBM/1.jpg "YBM-12/0.4 户外预装式变电站 ( 欧式 )")](/products/substation/ybm-12-outdoor-pre-installed-substation/)    | 
+
+| [YB27-12/0.4 高压/低压预装式变电站 ( 美式 )](https://www.lyskjd.com/products/substation/yb27-prefabricated-substation/)   |    [YBM-12/0.4 户外预装式变电站 ( 欧式 )](https://www.lyskjd.com/products/substation/ybm-12-outdoor-pre-installed-substation/)    | 
 
 ### 电力变压器
 
-| :----:    |    :----:   | 
-| [![S9-M系列全密封油浸式变压器](/images/Complete-switch-cabinet/6.png "S9-M系列全密封油浸式变压器")](/products/transformer/s9-m-10kv-three-phase-oil-immersed-fully-sealed-power-transformer/)   |    [![SC(B)10型环氧树脂浇注干式电力变压器](/images/Complete-switch-cabinet/46.png "SC(B)10型环氧树脂浇注干式电力变压器")](/products/transformer/scb10-10kv-resin-insulated-dry-type-transformer/)    | 
+
+| [S9-M系列全密封油浸式变压器](https://www.lyskjd.com/products/transformer/s9-m-10kv-three-phase-oil-immersed-fully-sealed-power-transformer/)   |    [SC(B)10型环氧树脂浇注干式电力变压器](https://www.lyskjd.com/products/transformer/scb10-10kv-resin-insulated-dry-type-transformer/)    | 
