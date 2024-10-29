@@ -2,7 +2,7 @@
 
 ## Company Profile
 
-**Linyi Senkuo Electromechanical Co., Ltd.**, located in Linyi City, Shandong Province, China, is a high-tech enterprise specializing in the research, development, production, and sales of industrial automation control equipment. Our product range includes variable frequency drives, soft starters, soft start cabinets, variable frequency control cabinets, as well as high and low voltage electrical components and complete sets of equipment. These are widely used in industries such as machinery manufacturing, power, mining, construction, and petrochemicals.
+[**Linyi Senkuo Electromechanical Co., Ltd.**](https://www.lyskjd.com), located in Linyi City, Shandong Province, China, is a high-tech enterprise specializing in the research, development, production, and sales of industrial automation control equipment. Our product range includes variable frequency drives, soft starters, soft start cabinets, variable frequency control cabinets, as well as high and low voltage electrical components and complete sets of equipment. These are widely used in industries such as machinery manufacturing, power, mining, construction, and petrochemicals.
 Senkuo Electromechanical is committed to technological innovation, boasting a team of experienced engineers and technical professionals dedicated to providing customers with efficient, energy-saving, and reliable industrial automation solutions. Our manufacturing base employs advanced manufacturing processes and a strict quality management system to ensure that each unit meets the highest standards.
 
 ## Brand Story
@@ -34,7 +34,7 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 
 ## 公司简介
 
-**临沂森阔机电有限公司**，位于中国山东省临沂市，是一家专业从事工业自动化控制设备研发、生产与销售的高新技术企业。我们的产品线涵盖变频器、软启动器、软启动柜、变频控制柜以及高低压元器件和成套设备，广泛应用于机械制造、电力、矿业、建筑和石油化工等行业。
+[**临沂森阔机电有限公司**] (https://www.lyskjd.com) ，位于中国山东省临沂市，是一家专业从事工业自动化控制设备研发、生产与销售的高新技术企业。我们的产品线涵盖变频器、软启动器、软启动柜、变频控制柜以及高低压元器件和成套设备，广泛应用于机械制造、电力、矿业、建筑和石油化工等行业。
 森阔机电坚持以技术创新为核心，拥有一支由资深工程师和专业技术人员组成的研发团队，致力于为客户提供高效、节能、稳定可靠的工业自动化解决方案。我们的生产基地采用先进的制造工艺和严格的质量管理体系，确保每一台设备都能达到最高标准。
 
 ## 品牌故事
@@ -69,21 +69,17 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 | :----:    |    :----:   | 
 | [![矢量变频器](/images/Vector-inverter/4.jpg "矢量变频器")](/products/motor-driven/vfd/)   |    [![在线软启动柜](/images/On-line-Soft-Start-Control-Cabinet/2.jpg "在线软启动柜")](/products/motor-driven/on-line-soft-start-control-cabinet/)    | 
 | [![在线软启动器](/images/On-line-soft-starter/5.jpg "在线软启动器")](/products/motor-driven/soft-starter/)   |    [![旁路软启动器](/images/External-Bypass-Soft-Starter/1.jpg "旁路软启动器")](/products/motor-driven/external-bypass-soft-starter/)    | 
-| [![自耦减压启动柜](/images/ZOG/2.jpg "自耦减压启动柜")](/products/motor-driven/autotransformer-reduced-voltage-starter-cabinet/)   |     | 
+
 
 ### 低压成套设备
 
 | :----:    |    :----:   | 
 | [![GCK 低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/42.png "GCK 低压抽屉柜成套开关设备")](/products/low-voltage-complete-switch-cabinet/gck-type-low-voltage-withdrawable-complete-switchgear/)   |    [![GCS 交流低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/38.png "GCS 交流低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/gcs-type-low-voltage-withdrawable-complete-switchgear/)    | 
-
 | [![GGD 低压开启式成套开关设备](/images/Complete-switch-cabinet/43.png "GGD 低压开启式成套开关设备")](/products/low-voltage-complete-switch-cabinet/ggd-type-low-voltage-fixed-switch-cabinet/)   |    [![GGJ 低压电容成套开关设备](/images/Complete-switch-cabinet/41.jpg "GCS 交流低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/ggj-low-voltage-reactive-power-compensation-device/)    | 
-
 | [![GZDW 智能高频直流屏](/images/Complete-switch-cabinet/36.png "GZDW 智能高频直流屏")](/products/low-voltage-complete-switch-cabinet/gzdw-intelligent-high-frequency-dc-control-panel/)   |    [![MNS 低压抽屉柜成套开关设备](/images/Complete-switch-cabinet/39.png "MNS 低压抽屉柜成套开关设备](/products/low-voltage-complete-switch-cabinet/mns-type-low-voltage-withdrawable-complete-switchgear/)    | 
-
 | [![XL-21 交流低压动力配电柜](/images/Complete-switch-cabinet/37.png "XL-21 交流低压动力配电柜")](/products/low-voltage-complete-switch-cabinet/xl-21-type-floor-distribution-cabinet/)   |    [![PZ30低压照明箱](/images/Complete-switch-cabinet/12.png "PZ30低压照明箱](/products/low-voltage-complete-switch-cabinet/pz30-modularized-terminal-combined-electric-appliance/)    | 
 
 
-| [![JXF 低压配电箱](/images/Complete-switch-cabinet/13.png "JXF 低压配电箱")](/products/low-voltage-complete-switch-cabinet/jxf-series-wall-mounted-distribution-box/)   |      | 
 
 
 
@@ -91,12 +87,9 @@ Senkuo Electromechanical is not just a brand but also a commitment, representing
 ### 高压成套设备
 | :----:    |    :----:   | 
 | [![HXGN17-12 箱式交流金属封闭开关设备](/images/Complete-switch-cabinet/24.jpg "HXGN17-12 箱式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/hxgn17-12-unit-ac-metal-enclosed-ring-network-switchgear/)   |    [![HXGN66-12 固定式金属封闭开关设备](/images/Complete-switch-cabinet/27.jpg "HXGN66-12 固定式金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/xgn66-12-type-fixed-closed-switchgear/)    | 
-
 | [![KYN28-12(Z) 交流金属铠装式开关设备](/images/Complete-switch-cabinet/28.jpg "KYN28-12(Z) 交流金属铠装式开关设备")](/products/high-voltage-switchgear-cabinet/kyn28-12-armored-removable-ac-metal-enclosed-switchgear/)   |    [![KYN28A-24 铠装移开式交流金属封闭开关设备](/images/Complete-switch-cabinet/29.jpg "KYN28A-24 铠装移开式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/kyn28a-24-type-removable-ac-metal-enclosed-switchgear/)    | 
-
 | [![KYN61-40.5(Z) 铠装移开式交流金属封闭开关设备](/images/Complete-switch-cabinet/34.jpg "KYN61-40.5(Z) 铠装移开式交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/kyn61-40.5-armored-mobile-ac-metal-enclosed-switchgear/)   |    [![XGN15-12 箱式固定交流金属封闭开关设备](/images/Complete-switch-cabinet/25.jpg "XGN15-12 箱式固定交流金属封闭开关设备")](/products/high-voltage-switchgear-cabinet/hxgn15-12-box-type-fixed-ac-metal-enclosed-switchgear/)    | 
 
-| [![TBBZ 高压无功自动补偿装置](/images/Complete-switch-cabinet/7.png "TBBZ 高压无功自动补偿装置")](/products/high-voltage-switchgear-cabinet/tbb-10-high-voltage-reactive-power-automatic-compensation-device/)   |    | 
 
 ### 箱式变电站
 
