@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linyi Senkuo Electromechanical Co., Ltd. – News &amp; Blog</title>
-    <link>http://localhost:1313/en/blog/</link>
+    <link>https://www.lyskjd.com/en/blog/</link>
     <description>Recent content in News &amp; Blog on Linyi Senkuo Electromechanical Co., Ltd.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/en/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://www.lyskjd.com/en/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Three-Phase Variable Frequency Drives The Intelligent Speed Control Vanguard for Industrial Power</title>
-      <link>http://localhost:1313/en/blog/three-phase-variable-frequency-drives-the-intelligent-speed-control-pioneer-for-industrial-power/</link>
+      <link>https://www.lyskjd.com/en/blog/three-phase-variable-frequency-drives-the-intelligent-speed-control-pioneer-for-industrial-power/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/three-phase-variable-frequency-drives-the-intelligent-speed-control-pioneer-for-industrial-power/</guid>
+      <guid>https://www.lyskjd.com/en/blog/three-phase-variable-frequency-drives-the-intelligent-speed-control-pioneer-for-industrial-power/</guid>
       <description>
         
         
@@ -80,9 +80,9 @@ A: Yes, three-phase VFDs improve overall efficiency by precisely controlling the
 
 &lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
@@ -91,10 +91,10 @@ A: Yes, three-phase VFDs improve overall efficiency by precisely controlling the
     
     <item>
       <title>Universal Variable Frequency Drives Intelligent Speed Control Solutions for Diverse Scenarios</title>
-      <link>http://localhost:1313/en/blog/universal-variable-frequency-drives-intelligent-speed-control-solutions-for-multiple-scenarios/</link>
+      <link>https://www.lyskjd.com/en/blog/universal-variable-frequency-drives-intelligent-speed-control-solutions-for-multiple-scenarios/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/universal-variable-frequency-drives-intelligent-speed-control-solutions-for-multiple-scenarios/</guid>
+      <guid>https://www.lyskjd.com/en/blog/universal-variable-frequency-drives-intelligent-speed-control-solutions-for-multiple-scenarios/</guid>
       <description>
         
         
@@ -154,9 +154,9 @@ A: Yes, by precisely controlling the motor&amp;rsquo;s operating speed, VFDs ena
 
 &lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
@@ -165,10 +165,10 @@ A: Yes, by precisely controlling the motor&amp;rsquo;s operating speed, VFDs ena
     
     <item>
       <title>Can Variable Frequency Drives Improve Motor Energy Efficiency?</title>
-      <link>http://localhost:1313/en/blog/can-variable-frequency-drives-improve-motor-energy-efficiency/</link>
+      <link>https://www.lyskjd.com/en/blog/can-variable-frequency-drives-improve-motor-energy-efficiency/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/can-variable-frequency-drives-improve-motor-energy-efficiency/</guid>
+      <guid>https://www.lyskjd.com/en/blog/can-variable-frequency-drives-improve-motor-energy-efficiency/</guid>
       <description>
         
         
@@ -222,9 +222,9 @@ The energy-saving effects can be measured by comparing the electricity consumpti
 
 &lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
@@ -233,10 +233,10 @@ The energy-saving effects can be measured by comparing the electricity consumpti
     
     <item>
       <title>What&#39;s the Difference Between a Variable Frequency Drive and a DC Speed Controller?</title>
-      <link>http://localhost:1313/en/blog/whats-the-difference-between-a-variable-frequency-drive-and-a-dc-speed-controller/</link>
+      <link>https://www.lyskjd.com/en/blog/whats-the-difference-between-a-variable-frequency-drive-and-a-dc-speed-controller/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/whats-the-difference-between-a-variable-frequency-drive-and-a-dc-speed-controller/</guid>
+      <guid>https://www.lyskjd.com/en/blog/whats-the-difference-between-a-variable-frequency-drive-and-a-dc-speed-controller/</guid>
       <description>
         
         
@@ -290,9 +290,9 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 
 &lt;div class=&#34;hextra-cards mt-4 gap-4 grid not-prose&#34; style=&#34;--rows: 3;&#34;&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/about/#-contact&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z&#34;/&gt;&lt;/svg&gt;Contact us&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
@@ -301,10 +301,10 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
     
     <item>
       <title>Here are the ten advantages of frequency converters</title>
-      <link>http://localhost:1313/en/blog/here-are-the-ten-advantages-of-frequency-converters/</link>
+      <link>https://www.lyskjd.com/en/blog/here-are-the-ten-advantages-of-frequency-converters/</link>
       <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/here-are-the-ten-advantages-of-frequency-converters/</guid>
+      <guid>https://www.lyskjd.com/en/blog/here-are-the-ten-advantages-of-frequency-converters/</guid>
       <description>
         
         
@@ -332,17 +332,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Why You Should Invest in a Vector Frequency Inverter for Your Business</title>
-      <link>http://localhost:1313/en/blog/why-you-should-invest-in-a-vector-frequency-inverter-for-your-business/</link>
+      <link>https://www.lyskjd.com/en/blog/why-you-should-invest-in-a-vector-frequency-inverter-for-your-business/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/why-you-should-invest-in-a-vector-frequency-inverter-for-your-business/</guid>
+      <guid>https://www.lyskjd.com/en/blog/why-you-should-invest-in-a-vector-frequency-inverter-for-your-business/</guid>
       <description>
         
         
@@ -375,17 +375,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Leading the Future Trend, Vector Inverter Helps You Easily Control Power Management</title>
-      <link>http://localhost:1313/en/blog/leading-the-future-trend-vector-inverter-helps-you-easily-control-power-management/</link>
+      <link>https://www.lyskjd.com/en/blog/leading-the-future-trend-vector-inverter-helps-you-easily-control-power-management/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/leading-the-future-trend-vector-inverter-helps-you-easily-control-power-management/</guid>
+      <guid>https://www.lyskjd.com/en/blog/leading-the-future-trend-vector-inverter-helps-you-easily-control-power-management/</guid>
       <description>
         
         
@@ -400,17 +400,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Application of frequency converter in double girder driving</title>
-      <link>http://localhost:1313/en/blog/application-of-frequency-converter-in-double-girder-driving/</link>
+      <link>https://www.lyskjd.com/en/blog/application-of-frequency-converter-in-double-girder-driving/</link>
       <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/application-of-frequency-converter-in-double-girder-driving/</guid>
+      <guid>https://www.lyskjd.com/en/blog/application-of-frequency-converter-in-double-girder-driving/</guid>
       <description>
         
         
@@ -439,17 +439,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>What are the functions and advantages of the frequency converter?</title>
-      <link>http://localhost:1313/en/blog/what-are-the-functions-and-advantages-of-the-frequency-converter/</link>
+      <link>https://www.lyskjd.com/en/blog/what-are-the-functions-and-advantages-of-the-frequency-converter/</link>
       <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/what-are-the-functions-and-advantages-of-the-frequency-converter/</guid>
+      <guid>https://www.lyskjd.com/en/blog/what-are-the-functions-and-advantages-of-the-frequency-converter/</guid>
       <description>
         
         
@@ -475,17 +475,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Power up Your Business with Vector Inverters</title>
-      <link>http://localhost:1313/en/blog/power-up-your-business-with-vector-inverters/</link>
+      <link>https://www.lyskjd.com/en/blog/power-up-your-business-with-vector-inverters/</link>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/power-up-your-business-with-vector-inverters/</guid>
+      <guid>https://www.lyskjd.com/en/blog/power-up-your-business-with-vector-inverters/</guid>
       <description>
         
         
@@ -493,7 +493,7 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;p&gt;With their advanced motor control technology, vector inverters provide precise speed and torque control, making them ideal for a wide range of applications, from conveyor belts to mixers, compressors, and more. Their ability to optimize motor performance can reduce energy costs and improve the lifespan of your equipment.&lt;/p&gt;
 &lt;p&gt;But that&amp;rsquo;s not all. Vector inverters also offer easy installation and programming, with user-friendly interfaces that make it simple to adjust settings and monitor performance. And with remote monitoring capabilities, you can keep an eye on your equipment from anywhere, anytime.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/Vector-inverter/4.jpg&#34; title=&#34;Power up Your Business with Vector Inverters&#34; alt=&#34;Power up Your Business with Vector Inverters&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/Vector-inverter/4.jpg&#34; title=&#34;Power up Your Business with Vector Inverters&#34; alt=&#34;Power up Your Business with Vector Inverters&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Power up Your Business with Vector Inverters&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Investing in vector inverters is an investment in your business&amp;rsquo;s success. By improving the performance and efficiency of your machinery, you can stay competitive and increase your profits. So why wait? Contact us today to learn more about how vector inverters can power up your business.&lt;/p&gt;
@@ -501,17 +501,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Why place an order today for our vector frequency converters</title>
-      <link>http://localhost:1313/en/blog/why-place-an-order-today-for-our-vector-frequency-converters/</link>
+      <link>https://www.lyskjd.com/en/blog/why-place-an-order-today-for-our-vector-frequency-converters/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/why-place-an-order-today-for-our-vector-frequency-converters/</guid>
+      <guid>https://www.lyskjd.com/en/blog/why-place-an-order-today-for-our-vector-frequency-converters/</guid>
       <description>
         
         
@@ -531,17 +531,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>What are the benefits of using a frequency converter?</title>
-      <link>http://localhost:1313/en/blog/what-are-the-benefits-of-using-a-frequency-converter/</link>
+      <link>https://www.lyskjd.com/en/blog/what-are-the-benefits-of-using-a-frequency-converter/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/what-are-the-benefits-of-using-a-frequency-converter/</guid>
+      <guid>https://www.lyskjd.com/en/blog/what-are-the-benefits-of-using-a-frequency-converter/</guid>
       <description>
         
         
@@ -582,17 +582,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>The company&#39;s English international website officially opened</title>
-      <link>http://localhost:1313/en/blog/the-companys-english-international-website-officially-opened/</link>
+      <link>https://www.lyskjd.com/en/blog/the-companys-english-international-website-officially-opened/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/the-companys-english-international-website-officially-opened/</guid>
+      <guid>https://www.lyskjd.com/en/blog/the-companys-english-international-website-officially-opened/</guid>
       <description>
         
         
@@ -602,17 +602,17 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;We welcome global agents, distributors, retailers, and other partners to join us and work together to develop mutually beneficial business relationships. Our products have already been well received by customers in many countries and regions, and we look forward to expanding our reach even further.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lyskjd.com/contact/&#34; &gt;contact us&lt;/a&gt;: &lt;a href=&#34;mailto:sales@senkuogroup.com&#34; &gt;sales@senkuogroup.com&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>http://localhost:1313/en/blog/faq/</link>
+      <link>https://www.lyskjd.com/en/blog/faq/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/en/blog/faq/</guid>
+      <guid>https://www.lyskjd.com/en/blog/faq/</guid>
       <description>
         
         
@@ -1468,7 +1468,7 @@ With the development of VFD technology, DC Speed Controllers do indeed face the 
 &lt;a
   class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;Buy Now&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;Purchase high-performance vector frequency inverter directly by clicking the link&lt;/div&gt;&lt;/a&gt;
 &lt;a
-  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
+  class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/docs&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 pt-4 px-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;Inverter User Manual&lt;/span&gt;&lt;div class=&#34;line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2&#34;&gt;User manual for SKF8000 series high-performance vector frequency inverter&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 

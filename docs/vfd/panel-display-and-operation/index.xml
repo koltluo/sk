@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>山东临沂森阔机电有限公司 – 第四章 面板显示与操作</title>
-    <link>http://localhost:1313/docs/vfd/panel-display-and-operation/</link>
+    <link>https://www.lyskjd.com/docs/vfd/panel-display-and-operation/</link>
     <description>Recent content in 第四章 面板显示与操作 on 山东临沂森阔机电有限公司</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	  <atom:link href="http://localhost:1313/docs/vfd/panel-display-and-operation/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://www.lyskjd.com/docs/vfd/panel-display-and-operation/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,16 +16,16 @@
     
     <item>
       <title>4.1 显示界面介绍</title>
-      <link>http://localhost:1313/docs/vfd/panel-display-and-operation/display-interface-introduction/</link>
+      <link>https://www.lyskjd.com/docs/vfd/panel-display-and-operation/display-interface-introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/vfd/panel-display-and-operation/display-interface-introduction/</guid>
+      <guid>https://www.lyskjd.com/docs/vfd/panel-display-and-operation/display-interface-introduction/</guid>
       <description>
         
         
         &lt;p&gt;用操作面板，可对变频器进行功能参数修改，变频器工作状态监控和变频器进行启动、停止等操作，其外形及功能区如下图所示:
 &lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/cmb.jpg&#34; title=&#34;C系列变频器操作面板示意图&#34; alt=&#34;C系列变频器操作面板示意图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/cmb.jpg&#34; title=&#34;C系列变频器操作面板示意图&#34; alt=&#34;C系列变频器操作面板示意图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;C系列变频器操作面板示意图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;C系列变频器操作面板指示灯及按键功能&lt;span class=&#34;absolute -mt-20&#34; id=&#34;c系列变频器操作面板指示灯及按键功能&#34;&gt;&lt;/span&gt;
@@ -111,7 +111,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/hmb.jpg&#34; title=&#34;H系列变频器操作面板示意图&#34; alt=&#34;H系列变频器操作面板示意图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/hmb.jpg&#34; title=&#34;H系列变频器操作面板示意图&#34; alt=&#34;H系列变频器操作面板示意图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;H系列变频器操作面板示意图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;H系列变频器操作面板指示灯及按键功能&lt;span class=&#34;absolute -mt-20&#34; id=&#34;h系列变频器操作面板指示灯及按键功能&#34;&gt;&lt;/span&gt;
@@ -172,13 +172,13 @@
 &lt;h2&gt;变频器功能码查看、修改方法说明&lt;span class=&#34;absolute -mt-20&#34; id=&#34;变频器功能码查看修改方法说明&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%8f%98%e9%a2%91%e5%99%a8%e5%8a%9f%e8%83%bd%e7%a0%81%e6%9f%a5%e7%9c%8b%e4%bf%ae%e6%94%b9%e6%96%b9%e6%b3%95%e8%af%b4%e6%98%8e&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;变频器的操作面板采用三级菜单结构进行参数设置等操作。三级菜单分别为：功能参数级(一级菜单)→功能码（二级菜单）→功能码设定值（三级菜单）。操作流程如下图所示：
 &lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/lct.jpg&#34; title=&#34;变频器三级菜单操作流程图&#34; alt=&#34;变频器三级菜单操作流程图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/lct.jpg&#34; title=&#34;变频器三级菜单操作流程图&#34; alt=&#34;变频器三级菜单操作流程图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;变频器三级菜单操作流程图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;说明：在三级菜单操作时，可按PRG（编程）键或ENTER(确认)键返回二级菜单。两者的区别是：按ENTER(确认)键将设定参数保存后返回二级菜单，并自动转移到下一个功能码；而按PRG(编程)键则直接返回二级菜单，不存储参数，并返回到当前功能码。&lt;br&gt;
 举例：将功能码P3-02从10.00Hz更改为15.00Hz的示例。（粗体字表示闪烁位）
 &lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jl.jpg&#34; title=&#34;变频器三级菜单参数设置举例&#34; alt=&#34;变频器三级菜单参数设置举例&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jl.jpg&#34; title=&#34;变频器三级菜单参数设置举例&#34; alt=&#34;变频器三级菜单参数设置举例&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;变频器三级菜单参数设置举例&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在第三级菜单状态下，若参数没有闪烁位，表示该功能码不能修改，可能原因有：&lt;br&gt;
@@ -192,7 +192,7 @@
     class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;立即购买高性能矢量变频器&lt;/span&gt;&lt;/a&gt;
 
   &lt;a
-    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;变频器常见问题解答&lt;/span&gt;&lt;/a&gt;
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;变频器常见问题解答&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
@@ -201,42 +201,42 @@
     
     <item>
       <title>4.2 端子应用接线图</title>
-      <link>http://localhost:1313/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</link>
+      <link>https://www.lyskjd.com/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</guid>
+      <guid>https://www.lyskjd.com/docs/vfd/panel-display-and-operation/terminal-application-wiring-diagram/</guid>
       <description>
         
         
         &lt;h2&gt;0.75~37KW变频器接线图&lt;span class=&#34;absolute -mt-20&#34; id=&#34;07537kw变频器接线图&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#07537kw%e5%8f%98%e9%a2%91%e5%99%a8%e6%8e%a5%e7%ba%bf%e5%9b%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt1.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接电位器接线图&#34; alt=&#34;SKF8000系列矢量变频器外接电位器接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt1.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接电位器接线图&#34; alt=&#34;SKF8000系列矢量变频器外接电位器接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接电位器接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt2.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接按钮启动停止接线图&#34; alt=&#34;SKF8000系列矢量变频器外接按钮启动停止接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt2.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接按钮启动停止接线图&#34; alt=&#34;SKF8000系列矢量变频器外接按钮启动停止接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接按钮启动停止接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：按下绿色按钮，变频器启动；按下红色停止按钮，变频器停止；&lt;br&gt;
 变频器参数设置：P0-02=1;P4-02=3;P4-11=2&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt3.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接三档旋钮开关正反转接线图&#34; alt=&#34;SKF8000系列矢量变频器外接三档开关正反转接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt3.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接三档旋钮开关正反转接线图&#34; alt=&#34;SKF8000系列矢量变频器外接三档开关正反转接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接三档旋钮开关正反转接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：三档两常开旋钮，打到左边电机正转，打到中间电机停止，打到右边电机反转。&lt;br&gt;
 变频器参数设置：P0-02=1&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt4.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接通断信号接线图&#34; alt=&#34;SKF8000系列矢量变频器外接通断信号接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt4.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接通断信号接线图&#34; alt=&#34;SKF8000系列矢量变频器外接通断信号接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接通断信号接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：X1端子和COM端子接通变频器启动；X1端子和COM端子断开变频器停止；来电直启，断电停机，直接COM和X1短接。&lt;br&gt;
 变频器参数设置：P0-02=1&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt5.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接远传压力表-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt5.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接远传压力表-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接远传压力表-简单恒压供水接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：变频器作为供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br&gt;
@@ -247,7 +247,7 @@
 🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt6.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接压力传感器-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt6.jpg&#34; title=&#34;SKF8000系列0.75~37KW矢量变频器外接压力传感器-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列0.75~37KW矢量变频器外接压力传感器-简单恒压供水接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：变频器作为恒力供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br&gt;
@@ -259,33 +259,33 @@
 &lt;hr&gt;
 &lt;h2&gt;45~720KW变频器接线图&lt;span class=&#34;absolute -mt-20&#34; id=&#34;45720kw变频器接线图&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#45720kw%e5%8f%98%e9%a2%91%e5%99%a8%e6%8e%a5%e7%ba%bf%e5%9b%be&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt7.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接电位器接线图&#34; alt=&#34;SKF8000系列矢量变频器外接电位器接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt7.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接电位器接线图&#34; alt=&#34;SKF8000系列矢量变频器外接电位器接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列45~720KW矢量变频器外接电位器接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt8.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接按钮启动停止接线图&#34; alt=&#34;SKF8000系列矢量变频器外接按钮启动停止接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt8.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接按钮启动停止接线图&#34; alt=&#34;SKF8000系列矢量变频器外接按钮启动停止接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列45~720KW矢量变频器外接按钮启动停止接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：按下绿色按钮，变频器启动；按下红色停止按钮，变频器停止；&lt;br&gt;
 变频器参数设置：P0-02=1;P4-02=3;P4-11=2&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt9.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接三档开关正反转接线图&#34; alt=&#34;SKF8000系列矢量变频器外接三档开关正反转接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt9.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接三档开关正反转接线图&#34; alt=&#34;SKF8000系列矢量变频器外接三档开关正反转接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列45~720KW矢量变频器外接三档开关正反转接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：三档两常开旋钮，打到左边电机正转，打到中间电机停止，打到右边电机反转。&lt;br&gt;
 变频器参数设置：P0-02=1&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt11.jpg&#34; title=&#34;SKF8000系列矢量45~720KW变频器外接通断信号接线图&#34; alt=&#34;SKF8000系列矢量变频器外接通断信号接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt11.jpg&#34; title=&#34;SKF8000系列矢量45~720KW变频器外接通断信号接线图&#34; alt=&#34;SKF8000系列矢量变频器外接通断信号接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列矢量45~720KW变频器外接通断信号接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：X1端子和COM端子接通变频器启动；X1端子和COM端子断开变频器停止；来电直启，断电停机，直接COM和X1短接。&lt;br&gt;
 变频器参数设置：P0-02=1&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt10.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接远传压力表-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt10.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接远传压力表-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接远传压力表-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列45~720KW矢量变频器外接远传压力表-简单恒压供水接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：变频器作为恒压供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br&gt;
@@ -296,7 +296,7 @@
 🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/jxt12.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接压力传感器-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/jxt12.jpg&#34; title=&#34;SKF8000系列45~720KW矢量变频器外接压力传感器-简单恒压供水接线图&#34; alt=&#34;SKF8000系列矢量变频器外接压力传感器-简单恒压供水接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列45~720KW矢量变频器外接压力传感器-简单恒压供水接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;br&gt;
 说明：变频器作为供水系统的核心，能够实时监测水压变化，并根据需求智能调节水泵的转速。当多个用户同时使用水源时，变频器会自动增加水泵的输出功率，保持稳定的水压；而在使用较小的水流量时，变频器则会降低水泵的输出功率，避免过高的水压。&lt;br&gt;
@@ -307,12 +307,12 @@
 🌟备注2：b0-02和b0-03设置是相对b0-01的百分比。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/yyyb.jpg&#34; title=&#34;SKF8000系列高性能通用矢量变频器：一用一备接线图&#34; alt=&#34;SKF8000系列高性能通用矢量变频器一用一备接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/yyyb.jpg&#34; title=&#34;SKF8000系列高性能通用矢量变频器：一用一备接线图&#34; alt=&#34;SKF8000系列高性能通用矢量变频器一用一备接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列高性能通用矢量变频器：一用一备接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;http://localhost:1313/images/yblg.jpg&#34; title=&#34;SKF8000系列高性能通用矢量变频器：一变频两工频接线图&#34; alt=&#34;SKF8000系列高性能通用矢量变频器一变频两工频接线图&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;https://www.lyskjd.com/images/yblg.jpg&#34; title=&#34;SKF8000系列高性能通用矢量变频器：一变频两工频接线图&#34; alt=&#34;SKF8000系列高性能通用矢量变频器一变频两工频接线图&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;SKF8000系列高性能通用矢量变频器：一变频两工频接线图&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;SKF8000系列通用变频器多段速指令功能说明&lt;span class=&#34;absolute -mt-20&#34; id=&#34;skf8000系列通用变频器多段速指令功能说明&#34;&gt;&lt;/span&gt;
@@ -468,7 +468,7 @@
     class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://item.taobao.com/item.htm?ft=t&amp;amp;id=771441899583&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z&#34;/&gt;&lt;/svg&gt;立即购买高性能矢量变频器&lt;/span&gt;&lt;/a&gt;
 
   &lt;a
-    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;http://localhost:1313/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;变频器常见问题解答&lt;/span&gt;&lt;/a&gt;
+    class=&#34;hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-transparent shadow-sm dark:border-neutral-800 hover:bg-slate-50 hover:shadow-md dark:hover:border-neutral-700 dark:hover:bg-neutral-900&#34;href=&#34;https://www.lyskjd.com/blog/faq/&#34; &gt;&lt;span class=&#34;flex font-semibold items-start gap-2 p-4 text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z&#34;/&gt;&lt;/svg&gt;变频器常见问题解答&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 
